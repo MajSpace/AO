@@ -1,0 +1,177 @@
+{
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "indonesian": "Bahasa Indonesia",
+    "safe": "Safe",
+    "moderate": "Moderate",
+    "extreme": "Extreme",
+    "dangerous": "Dangerous"
+  },
+  "tracker": {
+    "title": "🕐 Asia Server Status",
+    "peakTime": "Peak Time:",
+    "status": "Status:",
+    "calculating": "Calculating...",
+    "peakTimeInfo": "14:00 UTC (9 PM WIB)",
+    "localTime": "Your Time",
+    "serverTime": "Server Time (UTC)",
+    "safeStatus": "🟢 Low Activity - Safe to Farm",
+    "moderateStatus": "🟡 Moderate Activity - Caution Advised",
+    "extremeStatus": "🔴 EXTREME DANGER - Peak PvP Time"
+  },
+  "hero": {
+    "badge": "2026 FARMING GUIDE",
+    "title": "Albion Online Farming Guide",
+    "description": "Master the art of resource gathering across all tiers. From beginner zones to the most dangerous T8 Outlands, discover the best farming spots and strategies.",
+    "cta": "Start Farming"
+  },
+  "builds": {
+    "title": "⚔️ Recommended Gathering Builds",
+    "description": "Optimize your equipment for maximum efficiency and safety while gathering T8 resources.",
+    "solo": "Solo Gatherer (Speed)",
+    "tank": "Tank Gatherer (Safe)",
+    "balanced": "Balanced Gatherer",
+    "typeSolo": "Solo/Fast",
+    "typeGroup": "Group/Safe",
+    "typeVersatile": "Versatile"
+  },
+  "biomes": {
+    "title": "Biome Distribution",
+    "description": "Each city specializes in different resources. Choose your farming location based on what you need.",
+    "primaryResource": "Primary Resource",
+    "secondaryResource": "Secondary",
+    "tertiaryResource": "Tertiary"
+  },
+  "biome_names": {
+    "swamp": "Swamp",
+    "forest": "Forest",
+    "mountain": "Mountain",
+    "highland": "Highland",
+    "steppe": "Steppe"
+  },
+  "biome_descriptions": {
+    "swamp": "Mystical wetlands with abundant fiber resources and hidden dangers in the mist.",
+    "forest": "Ancient woodlands filled with towering trees and rich wood resources.",
+    "mountain": "Majestic peaks with glowing ore deposits and treacherous terrain.",
+    "highland": "Rocky plateaus with plentiful stone and valuable mineral deposits.",
+    "steppe": "Vast plains where hunters gather hides and fiber under the setting sun."
+  },
+  "tiers": {
+    "title": "Tier Progression Guide",
+    "description": "Learn the best strategies for each tier level, from safe beginner zones to dangerous T8 Outlands.",
+    "location": "Location",
+    "zoneType": "Zone Type",
+    "resources": "Available Resources",
+    "tips": "Pro Tips",
+    "danger": "Danger",
+    "safe": "Safe",
+    "moderate": "Moderate",
+    "dangerous": "Dangerous",
+    "tier1": {
+      "location": "Beginner Zone (Royal Continent)",
+      "zoneType": "Blue Zone",
+      "tips": [
+        "Focus on leveling up your gathering tools quickly",
+        "Use Learning Points to speed up progression",
+        "Don't spend too much time here - move to T2-T3 ASAP"
+      ]
+    },
+    "tier4": {
+      "location": "Royal Continent - Yellow & Red Zones",
+      "zoneType": "Yellow/Red Zone",
+      "tips": [
+        "Red zones offer better resource yields but higher risk",
+        "Always use Pork Pie to increase carry capacity",
+        "Consider gathering gear for yield bonuses"
+      ]
+    },
+    "tier6": {
+      "location": "Outlands - Black Zone",
+      "zoneType": "Black Zone",
+      "tips": [
+        "Use Invisibility Shrines for safe travel to deeper zones",
+        "Farm during off-peak hours to avoid gankers",
+        "Always plan an escape route"
+      ]
+    },
+    "tier7": {
+      "location": "Outlands - Deep Black Zone",
+      "zoneType": "Black Zone",
+      "tips": [
+        "Consider farming in Gold Mists for solo players",
+        "Use Roads of Avalon for group farming",
+        "High competition - timing is key"
+      ]
+    },
+    "tier8": {
+      "location": "Outlands - Deepest Black Zone",
+      "zoneType": "Black Zone",
+      "tips": [
+        "Watchtower territories are the best T8 sources",
+        "Farm with guild support or in hidden spots",
+        "Expect extreme competition and constant danger",
+        "Use premium gear and mounts for survival"
+      ]
+    }
+  },
+  "t8Maps": {
+    "title": "T8 Farming Locations",
+    "description": "Specific map names for each resource type in the Outlands (Black Zone). These are the most valuable farming spots.",
+    "fiber": "Fiber",
+    "wood": "Wood",
+    "hide": "Hide",
+    "stone": "Stone",
+    "ore": "Ore"
+  },
+  "events": {
+    "title": "📅 Asia Server Events & Schedule",
+    "description": "Important events and timings for Asia server farming activities.",
+    "worldBoss": "World Boss Spawn",
+    "worldBossDesc": "World Bosses spawn every even-numbered hour (00:00, 02:00, 04:00, etc.) on Asia server to avoid maintenance collision.",
+    "worldBossNote": "High risk, high reward farming opportunity",
+    "primeTime": "Asia Prime Time",
+    "primeTimeDesc": "Peak activity period for PvP and guild activities. Extreme danger in black zones.",
+    "primeTimeNote": "Best time for group farming with guild protection",
+    "dangerWindow": "Peak Danger Window",
+    "dangerWindowDesc": "Highest concentration of gankers and PvP players. Avoid solo gathering in black zones.",
+    "dangerWindowNote": "Stick to blue/yellow zones or farm with group",
+    "lowActivity": "Low Activity Period",
+    "lowActivityDesc": "Safest time for solo farming with reduced competition and ganking risk.",
+    "lowActivityNote": "Best for new players and solo farmers"
+  },
+  "proTips": {
+    "efficiency": {
+      "title": "Efficiency Tips",
+      "tips": [
+        "Use Pork Pie to increase carry capacity",
+        "Gather in biomes matching your resource type",
+        "Focus on one resource to T8 for max profit",
+        "Use Learning Points to speed up leveling"
+      ],
+      "radiantTip": "💡 Tip: Use the new Loot All button from Radiant Wilds for faster PvE farming!"
+    },
+    "safety": {
+      "title": "Safety Strategies",
+      "tips": [
+        "Use Invisibility Shrines for safe travel",
+        "Farm during off-peak server hours",
+        "Always have escape gear ready",
+        "Travel with guild members when possible"
+      ]
+    },
+    "profitability": {
+      "title": "Resource Profitability",
+      "tips": [
+        "Stone: Low competition, stable profit",
+        "Fishing: High profit, requires patience",
+        "Ore: Medium competition, good returns",
+        "Hide & Fiber: High competition, varied profit"
+      ]
+    }
+  },
+  "footer": {
+    "text": "Albion Online Farming Guide 2026 • Last Updated: May 2026",
+    "author": "Author: ABID"
+  }
+}
