@@ -1,189 +1,115 @@
 {
-  "common": {
-    "language": "Bahasa",
-    "english": "English",
-    "indonesian": "Bahasa Indonesia",
-    "safe": "Aman",
-    "moderate": "Sedang",
-    "extreme": "Ekstrem",
-    "dangerous": "Berbahaya"
-  },
+  "common": { "language": "Bahasa", "english": "English", "indonesian": "Bahasa Indonesia", "safe": "Aman", "moderate": "Sedang", "extreme": "Ekstrem", "dangerous": "Berbahaya" },
   "tracker": {
-    "title": "🕐 Status Server Asia",
-    "peakTime": "Waktu Puncak:",
-    "status": "Status:",
-    "calculating": "Menghitung...",
-    "peakTimeInfo": "14:00 UTC (21:00 WIB)",
-    "localTime": "Waktu Anda",
+    "title": "Status Server Asia",
+    "localTime": "Waktu Lokal",
     "serverTime": "Waktu Server (UTC)",
-    "safeStatus": "🟢 Aktivitas Rendah - Aman untuk Farming",
-    "moderateStatus": "🟡 Aktivitas Sedang - Tetap Waspada",
-    "extremeStatus": "🔴 BAHAYA EKSTREM - Waktu Puncak PvP"
+    "safeStatus": "🟢 Aktiviti Rendah - Aman untuk Farm",
+    "moderateStatus": "🟡 Aktiviti Sedang - Hati-hati",
+    "extremeStatus": "🔴 BAHAYA EKSTREM - Waktu PvP Puncak"
   },
-  "hero": {
-    "badge": "PANDUAN PENGUMPULAN 2026",
-    "title": "Panduan Pengumpulan Albion Online",
-    "description": "Kuasai seni pengumpulan sumber daya di semua tier. Dari zona pemula hingga Outlands T8 paling berbahaya, temukan spot pengumpulan terbaik dan strategi.",
-    "cta": "Mulai Mengumpul",
-    "guideBtn": "📖 Buka Panduan"
-  },
-  "builds": {
-    "title": "⚔️ Rekomendasi Build Pengumpul",
-    "description": "Optimalkan perlengkapan Anda untuk efisiensi dan keamanan maksimal saat mengumpulkan sumber daya T8.",
-    "solo": "Pengumpul Solo (Kecepatan)",
-    "tank": "Pengumpul Tank (Aman)",
-    "balanced": "Pengumpul Seimbang",
-    "typeSolo": "Solo/Cepat",
-    "typeGroup": "Grup/Aman",
-    "typeVersatile": "Serbaguna"
-  },
-  "biomes": {
-    "title": "Distribusi Bioma",
-    "description": "Setiap kota mengkhususkan diri pada sumber daya yang berbeda. Pilih lokasi pengumpulan Anda berdasarkan apa yang Anda butuhkan.",
-    "primaryResource": "Sumber Daya Utama",
-    "secondaryResource": "Sekunder",
-    "tertiaryResource": "Tersier"
-  },
-  "biome_names": {
-    "swamp": "Rawa (Swamp)",
-    "forest": "Hutan (Forest)",
-    "mountain": "Gunung (Mountain)",
-    "highland": "Dataran Tinggi (Highland)",
-    "steppe": "Stepa (Stepe)"
-  },
-  "biome_descriptions": {
-    "swamp": "Rawa mistis dengan sumber daya serat (fiber) yang melimpah dan bahaya tersembunyi di kabut.",
-    "forest": "Hutan kuno penuh dengan pohon menjulang dan sumber daya kayu yang kaya.",
-    "mountain": "Puncak megah dengan deposit bijih (ore) bercahaya dan medan berbahaya.",
-    "highland": "Dataran tinggi berbatu dengan batu melimpah dan deposit mineral berharga.",
-    "steppe": "Padang luas di mana pemburu mengumpulkan kulit (hide) dan serat di bawah matahari terbenam."
-  },
-  "tiers": {
-    "title": "Panduan Perkembangan Tier",
-    "description": "Pelajari strategi terbaik untuk setiap level tier, dari zona pemula yang aman hingga Outlands T8 yang berbahaya.",
-    "location": "Lokasi",
-    "zoneType": "Tipe Zona",
-    "resources": "Sumber Daya Tersedia",
-    "tips": "Tips Pro",
-    "danger": "Bahaya",
-    "safe": "Aman",
-    "moderate": "Sedang",
-    "dangerous": "Berbahaya",
-    "tier1": {
-      "location": "Zona Pemula (Royal Continent)",
-      "zoneType": "Zona Biru",
-      "tips": [
-        "Fokus pada peningkatan level alat pengumpul dengan cepat",
-        "Gunakan Learning Points untuk mempercepat perkembangan",
-        "Jangan habiskan terlalu banyak waktu di sini - pindah ke T2-T3 sesegera mungkin"
-      ]
-    },
-    "tier4": {
-      "location": "Royal Continent - Zona Kuning & Merah",
-      "zoneType": "Zona Kuning/Merah",
-      "tips": [
-        "Zona merah menawarkan hasil sumber daya yang lebih baik tetapi risiko lebih tinggi",
-        "Selalu gunakan Pork Pie untuk meningkatkan kapasitas angkut",
-        "Pertimbangkan perlengkapan pengumpul untuk bonus hasil"
-      ]
-    },
-    "tier6": {
-      "location": "Outlands - Zona Hitam",
-      "zoneType": "Zona Hitam",
-      "tips": [
-        "Gunakan Invisibility Shrines untuk bepergian aman ke zona yang lebih dalam",
-        "Kumpulkan selama jam-jam sepi untuk menghindari ganker",
-        "Selalu rencanakan rute pelarian"
-      ]
-    },
-    "tier7": {
-      "location": "Outlands - Zona Hitam Dalam",
-      "zoneType": "Zona Hitam",
-      "tips": [
-        "Pertimbangkan pengumpulan di Gold Mists untuk pemain solo",
-        "Gunakan Roads of Avalon untuk pengumpulan grup",
-        "Kompetisi tinggi - waktu adalah kunci"
-      ]
-    },
-    "tier8": {
-      "location": "Outlands - Zona Hitam Terdalam",
-      "zoneType": "Zona Hitam",
-      "tips": [
-        "Wilayah Watchtower adalah sumber T8 terbaik",
-        "Kumpulkan dengan dukungan guild atau di tempat tersembunyi",
-        "Harapkan kompetisi ekstrem dan bahaya konstan",
-        "Gunakan perlengkapan premium dan mount untuk kelangsungan hidup"
-      ]
-    }
-  },
-  "t8Maps": {
-    "title": "Lokasi Pengumpulan T8",
-    "description": "Nama peta spesifik untuk setiap tipe sumber daya di Outlands (Zona Hitam). Ini adalah spot pengumpulan paling berharga.",
-    "fiber": "Serat (Fiber)",
-    "wood": "Kayu (Wood)",
-    "hide": "Kulit (Hide)",
-    "stone": "Batu (Stone)",
-    "ore": "Bijih (Ore)"
-  },
-  "events": {
-    "title": "📅 Jadwal & Event Server Asia",
-    "description": "Event penting dan pengaturan waktu untuk aktivitas pengumpulan di server Asia.",
-    "worldBoss": "Spawn World Boss",
-    "worldBossDesc": "World Boss muncul setiap jam genap UTC (00:00, 02:00, 04:00, dst) di server Asia untuk menghindari bentrokan maintenance.",
-    "worldBossNote": "Peluang pengumpulan risiko tinggi, imbalan tinggi",
-    "primeTime": "Waktu Puncak Asia",
-    "primeTimeDesc": "Periode aktivitas puncak untuk PvP dan aktivitas guild. Bahaya ekstrem di zona hitam.",
-    "primeTimeNote": "Waktu terbaik untuk pengumpulan grup dengan perlindungan guild",
-    "dangerWindow": "Jendela Bahaya Puncak",
-    "dangerWindowDesc": "Konsentrasi tertinggi ganker dan pemain PvP. Hindari pengumpulan solo di zona hitam.",
-    "dangerWindowNote": "Tetap di zona biru/kuning atau mengumpul dengan grup",
-    "lowActivity": "Periode Aktivitas Rendah",
-    "lowActivityDesc": "Waktu teraman untuk pengumpulan solo dengan risiko ganking dan kompetisi yang berkurang.",
-    "lowActivityNote": "Terbaik untuk pemain baru dan pengumpul solo"
-  },
-  "proTips": {
-    "efficiency": {
-      "title": "Tips Efisiensi",
-      "tips": [
-        "Gunakan Pork Pie untuk meningkatkan kapasitas angkut",
-        "Kumpulkan di bioma yang sesuai dengan tipe sumber daya Anda",
-        "Fokus pada satu sumber daya hingga T8 untuk profit maksimal",
-        "Gunakan Learning Points untuk mempercepat level"
-      ],
-      "radiantTip": "💡 Tips: Gunakan tombol 'Loot All' baru dari Radiant Wilds untuk pengumpulan PvE yang lebih cepat!"
-    },
-    "safety": {
-      "title": "Strategi Keamanan",
-      "tips": [
-        "Gunakan Invisibility Shrines untuk perjalanan aman",
-        "Kumpulkan selama jam-jam server sepi",
-        "Selalu siapkan perlengkapan pelarian",
-        "Bepergian dengan anggota guild jika memungkinkan"
-      ]
-    },
-    "profitability": {
-      "title": "Profitabilitas Sumber Daya",
-      "tips": [
-        "Batu: Kompetisi rendah, profit stabil",
-        "Memancing: Profit tinggi, memerlukan kesabaran",
-        "Bijih: Kompetisi sedang, return bagus",
-        "Kulit & Serat: Kompetisi tinggi, profit bervariasi"
-      ]
-    }
-  },
-  "footer": {
-    "text": "Panduan Pengumpulan Albion Online 2026 • Terakhir Diperbarui: Mei 2026",
-    "author": "Penulis: ABID"
+  "nav": {
+    "builds": "Build", "biomes": "Biome", "tiers": "Tier", "gathering": "Gathering",
+    "t8maps": "Peta T8", "guild": "Guild", "events": "Event", "tips": "Tips Pro", "back": "Kembali"
   },
   "guide": {
     "btnLabel": "Panduan Pemula",
-    "panelTitle": "Panduan Pemain Albion",
-    "panelSubtitle": "Server Asia — Perjalanan lengkapmu dari pemula hingga legenda",
-    "tab": {
-      "beginner": "Pemula",
-      "midgame": "Mid Game",
-      "endgame": "End Game",
-      "professions": "Profesi"
+    "title": "Panduan Lengkap Pemula",
+    "earlyGame": "🌱 Awal Game",
+    "midGame": "⚔ Pertengahan",
+    "endGame": "👑 End Game",
+    "professions": "🎯 Profesi",
+    "earlyGameTitle": "Awal Permainan (T1–T4)",
+    "earlyGameDesc": "Langkah pertama untuk pemain baru.",
+    "midGameTitle": "Pertengahan Permainan (T5–T7)",
+    "midGameDesc": "Setelah stabil, tingkatkan keuntungan dan bergabung guild.",
+    "endGameTitle": "End Game (T8)",
+    "endGameDesc": "Tier tertinggi — farming di Outlands dan Black Zone.",
+    "professionsTitle": "Pilih Profesimu",
+    "professionsDesc": "Setiap profesi ada perjalanan tier berbeza. Klik untuk detail."
+  },
+  "guild": { "title": "Panduan Guild & Player" },
+  "hero": {
+    "badge": "PANDUAN FARMING 2026",
+    "title": "Panduan Farming Albion Online",
+    "description": "Kuasai seni mengumpul resource dari semua tier. Dari zona pemula hingga Outlands T8 yang paling berbahaya.",
+    "cta": "📖 Mulai Panduan",
+    "scrollBtn": "↓ Lihat Konten"
+  },
+  "builds": {
+    "title": "Build Gathering yang Direkomendasikan",
+    "description": "Optimumkan equipment untuk efisiensi dan keselamatan maksimum.",
+    "solo": "Gatherer Solo (Kecepatan)",
+    "tank": "Gatherer Tank (Selamat)",
+    "balanced": "Gatherer Seimbang",
+    "typeSolo": "Solo/Cepat",
+    "typeGroup": "Grup/Selamat",
+    "typeVersatile": "Serbaguna"
+  },
+  "biomes": {
+    "title": "Distribusi Biome",
+    "description": "Setiap kota berspesialisasi dalam resource yang berbeda.",
+    "primaryResource": "Resource Utama",
+    "secondaryResource": "Resource Sekunder",
+    "tertiaryResource": "Resource Tersier"
+  },
+  "biome_names": { "swamp": "Rawa", "forest": "Hutan", "mountain": "Gunung", "highland": "Dataran Tinggi", "steppe": "Stepa" },
+  "biome_descriptions": {
+    "swamp": "Lahan basah mistis dengan sumber serat melimpah dan bahaya tersembunyi di kabut.",
+    "forest": "Hutan kuno penuh pohon tinggi dan sumber kayu yang kaya.",
+    "mountain": "Puncak megah dengan deposit bijih yang bercahaya dan medan berbahaya.",
+    "highland": "Dataran berbatu dengan batu melimpah dan deposit mineral berharga.",
+    "steppe": "Padang luas tempat para pemburu mengumpulkan kulit dan serat di bawah matahari terbenam."
+  },
+  "tiers": {
+    "title": "Panduan Perkembangan Tier",
+    "description": "Dari zona pemula T1 sampai Outlands T8 — semua tier dicakup.",
+    "resources": "Resource Tersedia",
+    "tips": "Tips Pro"
+  },
+  "gathering": {
+    "title": "Perkembangan Equipment Gathering",
+    "description": "Panduan equipment dari tier rendah ke tinggi. Klik profesi untuk lihat detail."
+  },
+  "t8Maps": {
+    "title": "Lokasi Farming T8",
+    "description": "Nama peta spesifik untuk setiap jenis resource di Outlands Black Zone.",
+    "fiber": "Serat", "wood": "Kayu", "hide": "Kulit", "stone": "Batu", "ore": "Bijih"
+  },
+  "events": {
+    "title": "Event & Jadwal Server Asia",
+    "description": "Event penting dan waktu untuk aktivitas farming server Asia.",
+    "worldBoss": "Kemunculan World Boss",
+    "worldBossDesc": "World Boss muncul setiap jam genap (00:00, 02:00...) di server Asia.",
+    "worldBossNote": "Kesempatan farming berisiko tinggi, hadiah tinggi",
+    "primeTime": "Prime Time Asia",
+    "primeTimeDesc": "Periode aktivitas puncak untuk PvP dan aktivitas guild. Bahaya ekstrem di black zones.",
+    "primeTimeNote": "Waktu terbaik untuk farming grup dengan perlindungan guild",
+    "dangerWindow": "Jendela Bahaya Puncak",
+    "dangerWindowDesc": "Konsentrasi ganker dan pemain PvP tertinggi. Hindari gathering solo di black zones.",
+    "dangerWindowNote": "Tetap di blue/yellow zones atau farm dengan grup",
+    "lowActivity": "Periode Aktivitas Rendah",
+    "lowActivityDesc": "Waktu paling aman untuk farming solo dengan risiko ganking yang berkurang.",
+    "lowActivityNote": "Terbaik untuk pemain baru dan petani solo"
+  },
+  "proTips": {
+    "title": "Tips Pro",
+    "efficiency": {
+      "title": "Tips Efisiensi",
+      "tips": ["Gunakan Pork Pie untuk meningkatkan kapasitas bawa", "Kumpul di biome yang sesuai dengan jenis resource", "Fokus pada satu resource ke T8 untuk profit maksimal", "Gunakan Learning Points untuk mempercepat leveling"],
+      "radiantTip": "Tips: Gunakan tombol Loot All baru dari Radiant Wilds untuk farming PvE lebih cepat!"
+    },
+    "safety": {
+      "title": "Strategi Keselamatan",
+      "tips": ["Gunakan Invisibility Shrine untuk perjalanan aman", "Farm di luar jam puncak server", "Selalu siapkan gear escape", "Bepergian bersama anggota guild bila memungkinkan"]
+    },
+    "profitability": {
+      "title": "Profitabilitas Resource",
+      "tips": ["Batu: Kompetisi rendah, profit stabil", "Memancing: Profit tinggi, butuh kesabaran", "Bijih: Kompetisi sedang, hasil bagus", "Kulit & Serat: Kompetisi tinggi, profit bervariasi"]
     }
+  },
+  "footer": {
+    "text": "Panduan Farming Albion Online 2026 • Diperbarui: Mei 2026",
+    "author": "Penulis: ABID"
   }
 }
