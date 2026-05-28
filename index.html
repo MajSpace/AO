@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albion Online Farming Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo" data-i18n="hero.title">Albion Farming</h1>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="id">ID</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-i18n="hero.badge">2026 FARMING GUIDE</div>
+            <h1 class="hero-title" data-i18n="hero.title">Albion Online Farming Guide</h1>
+            <p class="hero-description" data-i18n="hero.description">Master the art of resource gathering across all tiers. From beginner zones to the most dangerous T8 Outlands, discover the best farming spots and strategies.</p>
+            <button class="btn btn-primary" data-i18n="hero.cta">Start Farming</button>
+        </div>
+    </section>
+
+    <!-- Prime Time Tracker -->
+    <section class="prime-time-section">
+        <div class="container">
+            <div class="prime-time-widget">
+                <div class="prime-time-header">
+                    <h3>🕐 Asia Server Status</h3>
+                </div>
+                <div class="prime-time-content">
+                    <div class="time-display">
+                        <div class="time-row">
+                            <div class="time-item">
+                                <div class="time-label" data-i18n="tracker.localTime">Your Time</div>
+                                <div class="current-time" id="localTime">--:-- --</div>
+                            </div>
+                            <div class="time-divider">|</div>
+                            <div class="time-item">
+                                <div class="time-label" data-i18n="tracker.serverTime">Server Time (UTC)</div>
+                                <div class="current-time" id="utcTime">--:-- UTC</div>
+                            </div>
+                        </div>
+                        <div class="danger-level" id="dangerLevel">Safe</div>
+                    </div>
+                    <div class="time-info">
+                        <p><strong>Peak Time:</strong> <span id="peakTimeInfo">14:00 UTC</span></p>
+                        <p><strong>Status:</strong> <span id="statusInfo">Calculating...</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <!-- Gathering Builds Section -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2>⚔️ <span data-i18n="builds.title">Recommended Gathering Builds</span></h2>
+                    <p data-i18n="builds.description">Optimize your equipment for maximum efficiency and safety while gathering T8 resources.</p>
+                </div>
+                <div class="builds-grid" id="buildsGrid"></div>
+            </div>
+
+            <!-- Biomes Section -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2 data-i18n="biomes.title">Biome Distribution</h2>
+                    <p data-i18n="biomes.description">Each city specializes in different resources. Choose your farming location based on what you need.</p>
+                </div>
+                <div class="biomes-grid" id="biomesGrid"></div>
+            </div>
+
+            <!-- Tier Guide Section -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2 data-i18n="tiers.title">Tier Progression Guide</h2>
+                    <p data-i18n="tiers.description">Learn the best strategies for each tier level, from safe beginner zones to dangerous T8 Outlands.</p>
+                </div>
+                <div class="tiers-container" id="tiersContainer"></div>
+            </div>
+
+            <!-- T8 Maps Section -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2 data-i18n="t8Maps.title">T8 Farming Locations</h2>
+                    <p data-i18n="t8Maps.description">Specific map names for each resource type in the Outlands (Black Zone). These are the most valuable farming spots.</p>
+                </div>
+                <div class="t8-maps-grid" id="t8MapsGrid"></div>
+            </div>
+
+            <!-- Event Schedule Section -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2>📅 <span data-i18n="events.title">Asia Server Events & Schedule</span></h2>
+                    <p data-i18n="events.description">Important events and timings for Asia server farming activities.</p>
+                </div>
+                <div class="events-grid" id="eventsGrid"></div>
+            </div>
+
+            <!-- Pro Tips Section -->
+            <div class="pro-tips-grid">
+                <div class="card pro-tip-card">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title" data-i18n="proTips.efficiency.title">Efficiency Tips</h3>
+                    <div class="card-content" id="efficiencyTips"></div>
+                    <div class="card-note">💡 <em data-i18n="proTips.efficiency.radiantTip">Tip: Use the new Loot All button from Radiant Wilds for faster PvE farming!</em></div>
+                </div>
+                <div class="card pro-tip-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3 class="card-title" data-i18n="proTips.safety.title">Safety Strategies</h3>
+                    <div class="card-content" id="safetyTips"></div>
+                </div>
+                <div class="card pro-tip-card">
+                    <div class="card-icon">🧭</div>
+                    <h3 class="card-title" data-i18n="proTips.profitability.title">Resource Profitability</h3>
+                    <div class="card-content" id="profitabilityTips"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.text">Albion Online Farming Guide 2026 • Last Updated: May 2026</p>
+            <p class="footer-author" data-i18n="footer.author">Author: ABID</p>
+        </div>
+    </footer>
+
+    <script src="locales/en.json" type="application/json" id="en-locale"></script>
+    <script src="locales/id.json" type="application/json" id="id-locale"></script>
+    <script src="script.js"></script>
+</body>
+</html>
