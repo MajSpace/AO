@@ -8,138 +8,117 @@
     "extreme": "Ekstrem",
     "dangerous": "Berbahaya"
   },
-  "menu": {
-    "toggle": "☰ Menu Panduan",
-    "title": "Katalog Panduan",
-    "progression": "Fase Permainan",
-    "early": "🌱 Early Game (Pemula)",
-    "mid": "⚔️ Mid Game (Transisi)",
-    "end": "☠️ End Game (Outlands)",
-    "professions": "Spesialisasi Profesi",
-    "miner": "⛏️ Penambang (Miner)",
-    "lumberjack": "🪓 Penebang Kayu (Lumberjack)",
-    "skinner": "🔪 Pengulit (Skinner)",
-    "harvester": "🌿 Pemanen (Harvester)",
-    "fisherman": "🎣 Nelayan (Fisherman)",
-    "equipment": "Perlengkapan",
-    "equip_prog": "🛡️ Progresi Alat & Armor",
-    "back_to_home": "⬅ Kembali ke Beranda"
-  },
   "tracker": {
-    "title": "Analis Waktu Server Asia",
+    "title": "🕐 Status Server Asia",
     "peakTime": "Waktu Puncak:",
-    "status": "Status Keselamatan:",
+    "status": "Status:",
     "calculating": "Menghitung...",
     "peakTimeInfo": "14:00 UTC (21:00 WIB)",
-    "localTime": "Waktu Lokal Anda",
+    "localTime": "Waktu Anda",
     "serverTime": "Waktu Server (UTC)",
-    "safeStatus": "🟢 Aktivitas Rendah - Sangat Aman untuk Solo Farming",
-    "moderateStatus": "🟡 Aktivitas Sedang - Tetap Waspada Ganker Berkeliaran",
-    "extremeStatus": "🔴 BAHAYA EKSTREM - Jam Puncak PvP & Guild War!"
+    "safeStatus": "🟢 Aktivitas Rendah - Aman untuk Farming",
+    "moderateStatus": "🟡 Aktivitas Sedang - Tetap Waspada",
+    "extremeStatus": "🔴 BAHAYA EKSTREM - Waktu Puncak PvP"
   },
   "hero": {
-    "badge": "PANDUAN LENGKAP EDISI 2026",
-    "title": "Albion Online Farming Guide",
-    "description": "Kuasai seni pengumpulan sumber daya dari Tier awal hingga Tier 8 terkuat. Dirancang khusus untuk server Asia dengan strategi perkembangan mendalam bagi pemula.",
-    "cta": "Mulai Jelajahi Beranda"
+    "badge": "PANDUAN PENGUMPULAN 2026",
+    "title": "Panduan Pengumpulan Albion Online",
+    "description": "Kuasai seni pengumpulan sumber daya di semua tier. Dari zona pemula hingga Outlands T8 paling berbahaya, temukan spot pengumpulan terbaik dan strategi.",
+    "cta": "Mulai Mengumpul",
+    "guideBtn": "📖 Buka Panduan"
   },
   "builds": {
-    "title": "⚔️ Rekomendasi Set Perlengkapan Kabur",
-    "description": "Optimalkan build perlengkapan Anda untuk bertahan hidup dan melarikan diri dari sergapan ganker saat memanen resource tinggi.",
-    "solo": "Pengumpul Solo (Fokus Kecepatan)",
-    "tank": "Pengumpul Tank (Fokus Ketahanan)",
-    "balanced": "Pengumpul Seimbang (Serbaguna)",
-    "typeSolo": "Solo / Mobilitas Tinggi",
-    "typeGroup": "Grup / Defensif Kuat",
-    "typeVersatile": "Fleksibel / Seimbang"
+    "title": "⚔️ Rekomendasi Build Pengumpul",
+    "description": "Optimalkan perlengkapan Anda untuk efisiensi dan keamanan maksimal saat mengumpulkan sumber daya T8.",
+    "solo": "Pengumpul Solo (Kecepatan)",
+    "tank": "Pengumpul Tank (Aman)",
+    "balanced": "Pengumpul Seimbang",
+    "typeSolo": "Solo/Cepat",
+    "typeGroup": "Grup/Aman",
+    "typeVersatile": "Serbaguna"
   },
   "biomes": {
-    "title": "Spesialisasi Bioma & Distribusi Kota",
-    "description": "Setiap kota memiliki bonus pengolahan dan kelimpahan sumber daya yang berbeda. Pilih markas sesuai target profesi Anda.",
-    "primaryResource": "Resource Utama (Kelimpahan 100%)",
-    "secondaryResource": "Resource Sekunder (Kelimpahan Sedang)",
-    "tertiaryResource": "Resource Tersier (Kelimpahan Rendah)"
+    "title": "Distribusi Bioma",
+    "description": "Setiap kota mengkhususkan diri pada sumber daya yang berbeda. Pilih lokasi pengumpulan Anda berdasarkan apa yang Anda butuhkan.",
+    "primaryResource": "Sumber Daya Utama",
+    "secondaryResource": "Sekunder",
+    "tertiaryResource": "Tersier"
   },
   "biome_names": {
-    "swamp": "Rawa (Swamp - Thetford)",
-    "forest": "Hutan (Forest - Lymhurst)",
-    "mountain": "Pegunungan (Mountain - Fort Sterling)",
-    "highland": "Dataran Tinggi (Highland - Martlock)",
-    "steppe": "Padang Rumput (Steppe - Bridgewatch)"
+    "swamp": "Rawa (Swamp)",
+    "forest": "Hutan (Forest)",
+    "mountain": "Gunung (Mountain)",
+    "highland": "Dataran Tinggi (Highland)",
+    "steppe": "Stepa (Stepe)"
   },
   "biome_descriptions": {
-    "swamp": "Lahan basah berkabut tebal tempat terbaik mencari Serat (Fiber). Dilengkapi bonus kerajinan lokal.",
-    "forest": "Hutan rimba hijau subur dengan pohon raksasa penghasil Kayu (Wood) melimpah.",
-    "mountain": "Puncak bersalju beku tempat deposit batuan logam berharga dan Bijih Besi (Ore).",
-    "highland": "Tebing tinggi berbatu keras dengan persediaan Batu (Stone) fondasi bangunan terbaik.",
-    "steppe": "Dataran kering luas tempat berburu fauna liar untuk diambil Kulit (Hide) berkualitas."
+    "swamp": "Rawa mistis dengan sumber daya serat (fiber) yang melimpah dan bahaya tersembunyi di kabut.",
+    "forest": "Hutan kuno penuh dengan pohon menjulang dan sumber daya kayu yang kaya.",
+    "mountain": "Puncak megah dengan deposit bijih (ore) bercahaya dan medan berbahaya.",
+    "highland": "Dataran tinggi berbatu dengan batu melimpah dan deposit mineral berharga.",
+    "steppe": "Padang luas di mana pemburu mengumpulkan kulit (hide) dan serat di bawah matahari terbenam."
   },
   "tiers": {
-    "title": "Rute Perkembangan Tier Pengumpul",
-    "description": "Alur perkembangan wilayah pengumpulan yang aman hingga zona paling brutal secara berurutan.",
-    "location": "Lokasi Zona",
-    "zoneType": "Tipe Regulasi PvP",
-    "resources": "Jenis Resource",
-    "tips": "Tips Pro Strategi",
-    "danger": "Tingkat Risiko",
+    "title": "Panduan Perkembangan Tier",
+    "description": "Pelajari strategi terbaik untuk setiap level tier, dari zona pemula yang aman hingga Outlands T8 yang berbahaya.",
+    "location": "Lokasi",
+    "zoneType": "Tipe Zona",
+    "resources": "Sumber Daya Tersedia",
+    "tips": "Tips Pro",
+    "danger": "Bahaya",
+    "safe": "Aman",
+    "moderate": "Sedang",
+    "dangerous": "Berbahaya",
     "tier1": {
-      "location": "Zona Pemula (Royal Continent Starter Towns)",
-      "zoneType": "Zona Biru (Aman Total)",
+      "location": "Zona Pemula (Royal Continent)",
+      "zoneType": "Zona Biru",
       "tips": [
-        "Fokus menaikkan level semua alat dasar dari Tier 1 ke Tier 4 tanpa ragu.",
-        "Jangan gunakan Learning Points (LP) pada Tier 1-3. Simpan mutlak untuk Tier 4!",
-        "Kumpulkan resource apa saja untuk membiasakan diri dengan mekanik klik."
+        "Fokus pada peningkatan level alat pengumpul dengan cepat",
+        "Gunakan Learning Points untuk mempercepat perkembangan",
+        "Jangan habiskan terlalu banyak waktu di sini - pindah ke T2-T3 sesegera mungkin"
       ]
     },
     "tier4": {
-      "location": "Royal Continent - Zona Kuning & Merah Terdekat",
-      "zoneType": "Zona Kuning (PvP tanpa Kehilangan Barang)",
+      "location": "Royal Continent - Zona Kuning & Merah",
+      "zoneType": "Zona Kuning/Merah",
       "tips": [
-        "Mulai pakai Baju Pengumpul (Gathering Gear) T4 untuk bonus hasil panen.",
-        "Gunakan Pork Pie untuk meningkatkan kecepatan panen dan kapasitas berat barang.",
-        "Di Zona Kuning, jika dijatuhkan musuh, Anda hanya pingsan dan tidak kehilangan barang."
-      ]
-    },
-    "tier5": {
-      "location": "Fase Transisi - Zona Merah Luar (Royal Continent)",
-      "zoneType": "Zona Merah (PvP Brutal - Looting Penuh)",
-      "tips": [
-        "PANDUAN TRANSISI PENTING: Jangan gunakan Sapi (Ox) di sini! Jika Anda diserang dan jatuh dari mount, beban Anda akan langsung melonjak hingga 100%+ dan tidak bisa berjalan.",
-        "Ganti mount Anda dengan Rusa (Stag) atau Kuda T5 yang tidak menghilangkan kapasitas bawaan saat di-dismount.",
-        "Selalu perhatikan counter jumlah player kriminal di pojok kanan bawah peta minimap Anda."
+        "Zona merah menawarkan hasil sumber daya yang lebih baik tetapi risiko lebih tinggi",
+        "Selalu gunakan Pork Pie untuk meningkatkan kapasitas angkut",
+        "Pertimbangkan perlengkapan pengumpul untuk bonus hasil"
       ]
     },
     "tier6": {
-      "location": "Gerbang Outlands - Zona Hitam Pinggiran",
-      "zoneType": "Zona Hitam (Bebas PvP - Looting Penuh)",
+      "location": "Outlands - Zona Hitam",
+      "zoneType": "Zona Hitam",
       "tips": [
-        "Gunakan Invisibility Shrine (Kuil Tembus Pandang) di dalam aula portal kota utama sebelum keluar ke Black Zone.",
-        "Jangan memanen di dekat gerbang portal utama; berjalanlah minimal 2-3 map lebih dalam untuk area yang lebih sepi.",
-        "Selalu siapkan rute pelarian mental dan jangan biarkan mount Anda menghilang dari jangkauan."
+        "Gunakan Invisibility Shrines untuk bepergian aman ke zona yang lebih dalam",
+        "Kumpulkan selama jam-jam sepi untuk menghindari ganker",
+        "Selalu rencanakan rute pelarian"
       ]
     },
     "tier7": {
-      "location": "Outlands Dalam - Deep Black Zone",
-      "zoneType": "Zona Hitam Tingkat Tinggi",
+      "location": "Outlands - Zona Hitam Dalam",
+      "zoneType": "Zona Hitam",
       "tips": [
-        "Gunakan Roads of Avalon (Jalan Avalon) sebagai jalan pintas rahasia untuk kabur atau mencari node langka.",
-        "Bagi pemain solo, memanen di dalam gerbang Kabut Emas (Gold Mists) jauh lebih aman daripada map terbuka.",
-        "Gunakan makanan premium dan selalu bawa ramuan tembus pandang (Invisibility Potion) di slot item aktif."
+        "Pertimbangkan pengumpulan di Gold Mists untuk pemain solo",
+        "Gunakan Roads of Avalon untuk pengumpulan grup",
+        "Kompetisi tinggi - waktu adalah kunci"
       ]
     },
     "tier8": {
-      "location": "Outlands Pusat - Terdalam & Paling Mematikan",
-      "zoneType": "Zona Hitam Teratas (Kekuasaan Teritori)",
+      "location": "Outlands - Zona Hitam Terdalam",
+      "zoneType": "Zona Hitam",
       "tips": [
-        "Peta T8 dikuasai oleh Aliansi Guild besar. Area sekitar Menara Pengawas (Watchtower) adalah spot terbaik.",
-        "Sangat disarankan mengumpul bersama grup perlindungan aliansi atau saat jam sepi server (Low Activity).",
-        "Wajib menggunakan Mount premium anti-gank seperti Pest Lizard atau Swamp Salamander yang memiliki kecepatan konstan."
+        "Wilayah Watchtower adalah sumber T8 terbaik",
+        "Kumpulkan dengan dukungan guild atau di tempat tersembunyi",
+        "Harapkan kompetisi ekstrem dan bahaya konstan",
+        "Gunakan perlengkapan premium dan mount untuk kelangsungan hidup"
       ]
     }
   },
   "t8Maps": {
-    "title": "Peta Lokasi Sumber Daya T8 Konten Outlands",
-    "description": "Daftar nama peta spesifik yang memuat sumber daya Tier 8 murni di Black Zone untuk target profit maksimal.",
+    "title": "Lokasi Pengumpulan T8",
+    "description": "Nama peta spesifik untuk setiap tipe sumber daya di Outlands (Zona Hitam). Ini adalah spot pengumpulan paling berharga.",
     "fiber": "Serat (Fiber)",
     "wood": "Kayu (Wood)",
     "hide": "Kulit (Hide)",
@@ -147,247 +126,64 @@
     "ore": "Bijih (Ore)"
   },
   "events": {
-    "title": "📅 Kalender Aktivitas & Event Server Asia",
-    "description": "Sesuaikan jadwal memanen Anda dengan siklus event server untuk meminimalkan risiko terjebak pertempuran massal.",
-    "worldBoss": "Siklus Spawn World Boss",
-    "worldBossDesc": "Muncul setiap jam genap UTC (00:00, 02:00, 04:00, dst) di server Asia. Menghindari bentrok waktu maintenance harian.",
-    "worldBossNote": "Area sekitar boss akan sangat ramai petarung; jangan mengumpul solo di area ini saat jam tersebut.",
-    "primeTime": "Jam Puncak Server Asia (Prime Time)",
-    "primeTimeDesc": "Terjadi sekitar pukul 13:00 - 15:00 UTC (20:00 - 22:00 WIB). Seluruh pemain aktif berkumpul untuk war teritori.",
-    "primeTimeNote": "Tingkat bahaya ekstrem bagi solo gatherer. Direkomendasikan istirahat atau mengumpul di zona aman.",
-    "dangerWindow": "Jendela Ganking Terorganisir",
-    "dangerWindowDesc": "Waktu di mana kelompok ganker patroli menyisir Black Zone dengan jumlah kru 5-10 orang.",
-    "dangerWindowNote": "Selalu dengarkan suara langkah kaki kuda di luar layar monitor Anda.",
-    "lowActivity": "Waktu Emas Memanen Solo",
-    "lowActivityDesc": "Pukul 21:00 hingga 09:00 UTC (Pagi hingga Sore hari WIB). Mayoritas pemain Asia sedang sekolah/bekerja.",
-    "lowActivityNote": "Waktu terbaik dan paling tenang untuk meraup Silver jutaan dari Black Zone secara mandiri."
+    "title": "📅 Jadwal & Event Server Asia",
+    "description": "Event penting dan pengaturan waktu untuk aktivitas pengumpulan di server Asia.",
+    "worldBoss": "Spawn World Boss",
+    "worldBossDesc": "World Boss muncul setiap jam genap UTC (00:00, 02:00, 04:00, dst) di server Asia untuk menghindari bentrokan maintenance.",
+    "worldBossNote": "Peluang pengumpulan risiko tinggi, imbalan tinggi",
+    "primeTime": "Waktu Puncak Asia",
+    "primeTimeDesc": "Periode aktivitas puncak untuk PvP dan aktivitas guild. Bahaya ekstrem di zona hitam.",
+    "primeTimeNote": "Waktu terbaik untuk pengumpulan grup dengan perlindungan guild",
+    "dangerWindow": "Jendela Bahaya Puncak",
+    "dangerWindowDesc": "Konsentrasi tertinggi ganker dan pemain PvP. Hindari pengumpulan solo di zona hitam.",
+    "dangerWindowNote": "Tetap di zona biru/kuning atau mengumpul dengan grup",
+    "lowActivity": "Periode Aktivitas Rendah",
+    "lowActivityDesc": "Waktu teraman untuk pengumpulan solo dengan risiko ganking dan kompetisi yang berkurang.",
+    "lowActivityNote": "Terbaik untuk pemain baru dan pengumpul solo"
   },
   "proTips": {
     "efficiency": {
-      "title": "Tips Efisiensi Panen",
+      "title": "Tips Efisiensi",
       "tips": [
-        "Fokus penuh pada SATU jenis resource terlebih dahulu hingga menyentuh T8 sebelum menaikkan profesi lain agar profit cepat stabil.",
-        "Selalu makan Pork Pie sebelum memukul resource; bonus yield memberikan tambahan item ekstra cuma-cuma.",
-        "Gunakan Learning Points HANYA untuk menaikkan ambang batas bar level dasar Tier berikutnya (bukan level spesialisasi dalam)."
+        "Gunakan Pork Pie untuk meningkatkan kapasitas angkut",
+        "Kumpulkan di bioma yang sesuai dengan tipe sumber daya Anda",
+        "Fokus pada satu sumber daya hingga T8 untuk profit maksimal",
+        "Gunakan Learning Points untuk mempercepat level"
       ],
-      "radiantTip": "💡 Info Update: Gunakan tombol mekanik 'Loot All' baru dari update Radiant Wilds untuk mengamankan drop pve lebih kilat!"
+      "radiantTip": "💡 Tips: Gunakan tombol 'Loot All' baru dari Radiant Wilds untuk pengumpulan PvE yang lebih cepat!"
     },
     "safety": {
-      "title": "Strategi Bertahan Hidup",
+      "title": "Strategi Keamanan",
       "tips": [
-        "Selalu letakkan kursor mouse dekat dengan mount Anda. Jika melihat nama player merah, langsung pencet mount tanpa menunda.",
-        "Gunakan kombinasi skill lari sepatu khusus pengumpul (seperti Miner Boots yang memiliki skill lari tercepat di game).",
-        "Jangan pernah berjalan dalam garis lurus di jalan setapak utama; ganker selalu memasang perangkap di sana."
+        "Gunakan Invisibility Shrines untuk perjalanan aman",
+        "Kumpulkan selama jam-jam server sepi",
+        "Selalu siapkan perlengkapan pelarian",
+        "Bepergian dengan anggota guild jika memungkinkan"
       ]
     },
     "profitability": {
-      "title": "Kalkulasi Profitabilitas",
+      "title": "Profitabilitas Sumber Daya",
       "tips": [
-        "Batu: Kompetisi memperebutkannya sangat rendah sekarang, harga stabil bagus untuk pembangunan teritori.",
-        "Nelayan: Keuntungan super stabil di mana saja ada air, tidak bergantung pada persaingan node batu/kayu.",
-        "Bijih & Kulit: Nilai jual tertinggi di pasar kota, namun kompetisi memperebutkan map sangat ketat dan berisiko tinggi."
+        "Batu: Kompetisi rendah, profit stabil",
+        "Memancing: Profit tinggi, memerlukan kesabaran",
+        "Bijih: Kompetisi sedang, return bagus",
+        "Kulit & Serat: Kompetisi tinggi, profit bervariasi"
       ]
     }
   },
   "footer": {
-    "text": "Albion Online Farming Guide 2026 • Platform Static Teroptimasi Cloudflare Pages",
-    "author": "Karya Kreatif Pengembang: ABID"
+    "text": "Panduan Pengumpulan Albion Online 2026 • Terakhir Diperbarui: Mei 2026",
+    "author": "Penulis: ABID"
   },
-  "detailed_guides": {
-    "early_game": {
-      "title": "🌱 Panduan Komprehensif Early Game (Fase Pemula Pemantapan)",
-      "description": "Langkah awal krusial bagi karakter baru di Royal Continent untuk membangun fondasi ekonomi.",
-      "sections": [
-        {
-          "heading": "1. Memulai di Kota Awal (Starter Cross)",
-          "content": "Setelah keluar dari tutorial, Anda akan mendarat di kota kecil (misalnya Swamp Cross, Forest Cross). Di sini, kumpulkan sumber daya Tier 1 dan Tier 2 menggunakan alat seadanya hingga Anda bisa memakai perlengkapan Tier 3. Jangan berlama-lama di kota awal ini."
-        },
-        {
-          "heading": "2. Aturan Emas Penggunaan Learning Points (LP)",
-          "content": "PENTING: Jangan pernah menggunakan Learning Points (LP) untuk membuka alat pengumpul Tier 2 atau Tier 3. Biarkan bar pengumpul naik secara alami hingga mencapai 20%. Simpan LP Anda sepenuhnya untuk membuka Alat Tier 4, Tier 5, dan seterusnya. Membuka alat tingkat tinggi membutuhkan exp yang sangat besar, di situlah LP bertindak sebagai penyelamat waktu."
-        },
-        {
-          "heading": "3. Mencoba Seluruh Jenis Resource",
-          "content": "Di awal game, belilah seluruh jenis alat pengumpul Tier 3 (Kapak, Linggis, Pisau Kulit, Sabit, Palu Batu). Cobalah memanen semuanya di Zona Biru sekitar kota utama. Rasakan minigame-nya dan perhatikan harga pasar. Setelah itu, pilih SATU atau DUA profesi utama untuk difokuskan. Berpindah-pindah profesi di awal hanya akan memperlambat Anda mencapai Tier tinggi."
-        },
-        {
-          "heading": "4. Migrasi ke Kota Besar Sesuai Target",
-          "content": "Setiap kota besar memiliki spesialisasi dan bonus pengolahan. Jika Anda memilih Bijih Besi, pindahlah ke Fort Sterling. Jika Kayu, pergilah ke Lymhurst. Simpan seluruh aset awal Anda di bank kota tersebut yang akan menjadi markas utama operasi Anda."
-        }
-      ]
-    },
-    "mid_game": {
-      "title": "⚔️ Panduan Strategi Mid Game (Transisi Zona Berbahaya)",
-      "description": "Bagaimana keluar dari zona aman menuju Zona Merah dan Zona Hitam dengan selamat dan menghasilkan jutaan Silver.",
-      "sections": [
-        {
-          "heading": "1. Merubah Mindset Mount: Tinggalkan Sapi (Ox)!",
-          "content": "Kesalahan terbesar pemain mid-game adalah membawa Sapi (Ox) ke Zona Merah atau Hitam karena tergiur muatannya yang besar. Ox memiliki mekanik beban bawaan yang melekat pada pasif mount. Jika Anda diserang ganker hingga mount Anda mati (forced dismount), status berat barang Anda akan langsung melesat ke 150%+, membuat karakter Anda terkunci tidak bisa lari. Gantilah mount dengan Rusa (Stag) T4 atau Kuda Tunggang T5 yang memiliki status berat terpisah pada karakter Anda sendiri."
-        },
-        {
-          "heading": "2. Membaca Sistem Counter Player Kriminal",
-          "content": "Di Zona Merah Royal Continent, perhatikan angka counter di bagian kanan bawah peta minimap Anda. Angka tersebut menunjukkan berapa banyak pemain berstatus 'Kriminal/Pk' yang sedang aktif di map tersebut. Jika angka menunjukkan di atas 0, tingkatkan kewaspadaan Anda. Jika angka melonjak tiba-tiba, segera naiki mount Anda dan bersiap pindah map."
-        },
-        {
-          "heading": "3. Memanfaatkan Fasilitas Portal Outlands",
-          "content": "Saat Anda siap melangkah ke Zona Hitam (Outlands) melalui Gerbang Portal di Kota Besar, pastikan Anda meminum cairan dari Invisibility Shrine (Cawan Tembus Pandang) yang terletak tepat di dekat pintu keluar portal. Cairan ini memberikan efek tidak terlihat dan kekebalan selama beberapa menit, memberi Anda waktu aman untuk berkendara menjauhi gerbang portal yang sering dijaga gerombolan ganker penyamun."
-        },
-        {
-          "heading": "4. Manajemen Konsumsi: Pork Pie & Invisibility Potion",
-          "content": "Selalu pastikan slot makanan Anda terisi Pork Pie yang aktif selama memanen untuk ekstra yield. Di slot ramuan, wajib pasang Invisibility Potion (Ramuan Menghilang). Jika Anda mendadak dikejar musuh dengan berjalan kaki, gunakan skill dash senjata Anda, konsumsi ramuan menghilang, lalu berbeloklah ke arah yang tidak terduga untuk mengecoh mereka."
-        }
-      ]
-    },
-    "end_game": {
-      "title": "☠️ Panduan End Game (Penguasaan Outlands T7-T8)",
-      "description": "Strategi memanen kelas tinggi di jantung zona hitam terdalam untuk meraup kekayaan masif bersama ekosistem guild.",
-      "sections": [
-        {
-          "heading": "1. Menembus Zona Hitam Terdalam",
-          "content": "Sumber daya Tier 7 dan Tier 8 murni hanya tumbuh di wilayah Outlands terdalam. Wilayah ini sepenuhnya bebas hukum dan didominasi oleh kelompok Zerg (pasukan guild besar). Anda harus belajar membaca peta politik aliansi mana yang menguasai teritori tersebut agar tidak masuk ke kandang macan kelaparan."
-        },
-        {
-          "heading": "2. Memanfaatkan Teritori Menara Pengawas (Watchtower)",
-          "content": "Spot spawn resource T8 terbaik berada di sekitar wilayah lingkaran Menara Pengawas teritori milik Guild. Jika Anda bergabung dengan Guild yang memiliki aliansi wilayah tersebut, Anda bisa memanen dengan aman karena menara akan menembakkan panah mematikan kepada musuh luar yang mencoba mendekati Anda."
-        },
-        {
-          "heading": "3. Mount Kelas Premium Anti-Gank",
-          "content": "Lupakan mount murah di fase ini. Anda wajib menginvestasikan Silver Anda untuk membeli Pest Lizard (Kadal Hama) atau Swamp Salamander. Pest Lizard memiliki kelebihan luar biasa: kecepatannya tidak melambat meskipun terkena hit monster atau serangan awal pemain lain, serta memiliki pasif racun yang mengacaukan target musuh."
-        },
-        {
-          "heading": "4. Eksplorasi Gerbang Jalan Avalon (Roads of Avalon)",
-          "content": "Selalu cari lingkaran portal hijau/biru Roads of Avalon di map. Dunia Avalon berisi node resource raksasa (Resource Aspect) yang setara dengan ratusan pukulan memanen jika Anda berhasil menumbangkan monster penjaganya bersama tim kecil. Avalon juga berfungsi sebagai jalan pintas darurat kembali ke Royal Continent dengan aman tanpa melewati portal utama."
-        }
-      ]
-    },
-    "miner": {
-      "title": "⛏️ Spesialisasi Profesi: Penambang Bijih Besi (Miner)",
-      "description": "Panduan mendalam rute pengumpulan logam berkilau dari batuan gunung.",
-      "sections": [
-        {
-          "heading": "Fokus Resource & Bioma Utama",
-          "content": "Target utama Anda adalah Bijih (Ore). Tempat terbaik untuk menambang adalah di bioma Pegunungan (Mountain) yang berpusat di kota Fort Sterling, dan bioma Dataran Tinggi (Highland) di Martlock. Ore ditandai dengan bongkahan batu bercahaya tembaga, besi, atau titanium."
-        },
-        {
-          "heading": "Kelebihan Baju Set Miner Gear",
-          "content": "Baju Tambang (Miner Garb) memiliki skill sepatu legendaris bernama 'Flee'. Skill ini memberikan lonjakan kecepatan lari tertinggi di seluruh game Albion Online, mengorbankan kemampuan menyerang Anda selama beberapa detik. Sangat cocok untuk meloloskan diri seketika saat dikepung ganker di pojok tebing."
-        },
-        {
-          "heading": "Tips Tambahan",
-          "content": "Bawa selalu palu penambang dengan Tier tertinggi yang bisa Anda gunakan. Di area pegunungan, waspadai monster elemental batu es yang bisa di-skin setelah mati untuk exp tambang ekstra."
-        }
-      ]
-    },
-    "lumberjack": {
-      "title": "🪓 Spesialisasi Profesi: Penebang Kayu (Lumberjack)",
-      "description": "Menguasai industri perkayuan kuno di wilayah hutan belantara.",
-      "sections": [
-        {
-          "heading": "Fokus Resource & Bioma Utama",
-          "content": "Target utama Anda adalah Kayu (Wood/Log). Markas terbaik adalah Lymhurst (Forest) yang dipenuhi pepohonan raksasa, serta Thetford (Swamp) sebagai bioma sekunder. Kayu sangat dibutuhkan untuk pembuatan senjata busur, tongkat sihir, dan perbaikan bangunan teritori."
-        },
-        {
-          "heading": "Kelebihan Baju Set Lumberjack Gear",
-          "content": "Set Penebang Kayu dilengkapi dengan skill armor pertahanan yang meningkatkan resistensi pertahanan fisik secara berkala saat Anda berlari, membantu Anda menahan hantaman panah pelumpuh milik ganker."
-        },
-        {
-          "heading": "Tips Tambahan",
-          "content": "Pohon T7 dan T8 memiliki visual ukuran yang sangat mencolok di map Outlands. Selalu tebang pohon yang memiliki kilau aura warna hijau (Uncommon), biru (Rare), atau ungu (Exceptional) untuk profit berlipat ganda."
-        }
-      ]
-    },
-    "skinner": {
-      "title": "🔪 Spesialisasi Profesi: Pengulit Satwa Liar (Skinner)",
-      "description": "Profesi dengan keuntungan finansial tertinggi namun membutuhkan kemampuan bertarung mekanis.",
-      "sections": [
-        {
-          "heading": "Fokus Resource & Bioma Utama",
-          "content": "Target utama Anda adalah Kulit Hewan (Hide). Bioma utama profesi ini adalah Padang Rumput (Steppe) yang berpusat di Bridgewatch, serta area Hutan (Lymhurst). Kulit adalah bahan baku baju armor leather yang sangat populer."
-        },
-        {
-          "heading": "Mekanik Bonus Exp Ganda (Double Fame)",
-          "content": "RAHASIA UTAMA SKINNER: Berbeda dengan profesi lain yang memukul benda mati, Skinner harus membunuh monster hewan liar terlebih dahulu sebelum mengulitinya. Ini berarti Anda mendapatkan EXP Bertarung (Combat Fame) sekaligus EXP Mengumpul (Gathering Fame) dalam waktu bersamaan! Sangat efisien untuk menaikkan level spec senjata bertarung Anda."
-        },
-        {
-          "heading": "Tips Tambahan",
-          "content": "Gunakan senjata yang memiliki skill area (AoE) besar seperti Deathgivers atau Battleaxe untuk membunuh gerombolan hewan dengan cepat sebelum mengulitinya sekaligus menggunakan Pork Pie."
-        }
-      ]
-    },
-    "harvester": {
-      "title": "🌿 Spesialisasi Profesi: Pemanen Serat Tumbuhan (Harvester)",
-      "description": "Membudidayakan tanaman serat alam di area rawa-rawa mistis.",
-      "sections": [
-        {
-          "heading": "Fokus Resource & Bioma Utama",
-          "content": "Target utama Anda adalah Serat (Fiber/Hemp). Tempat terbaik adalah di bioma Rawa (Swamp) sekitar kota Thetford, serta bioma Steppe di Bridgewatch. Serat digunakan sebagai bahan utama pembuatan jubah (cape) dan armor kain penyihir."
-        },
-        {
-          "heading": "Kelebihan Baju Set Harvester Gear",
-          "content": "Baju Harvester memiliki skill legendaris 'Windwall' (Dinding Angin). Ketika Anda dikejar ganker, Anda bisa melemparkan dinding angin ini ke belakang karakter Anda. Musuh yang mencoba mengejar akan terpental menjauh, memberi Anda waktu mutlak untuk menaiki mount kembali."
-        },
-        {
-          "heading": "Tips Tambahan",
-          "content": "Tanaman serat tingkat tinggi sering tumbuh di pulau-pulau kecil terisolasi di dalam peta rawa. Periksa sudut-sudut air tergenang untuk menemukan serat ungu T8."
-        }
-      ]
-    },
-    "fisherman": {
-      "title": "🎣 Spesialisasi Profesi: Nelayan Ulung (Fisherman)",
-      "description": "Profesi santai mandiri yang tidak berebut node panen dengan pemain lain.",
-      "sections": [
-        {
-          "heading": "Fokus Lokasi & Keunikan Mancing",
-          "content": "Nelayan tidak terikat pada satu kota khusus. Di mana saja ada genangan air (sungai kota, laut luar, rawa hitam), Anda bisa memancing. Nelayan memiliki jalur perkembangan EXP terpisah yang sangat unik dan dilengkapi minigame keseimbangan pancing."
-        },
-        {
-          "heading": "Strategi Pengolahan Profit Maksimal",
-          "content": "Jangan langsung menjual ikan mentah ke pasar! Anda memiliki tiga opsi untuk memaksimalkan profit: 1) Potong ikan di jagal menjadi 'Chopped Fish' untuk bahan baku saus memasak, 2) Ambil rumput laut (Seaweed) untuk meracik saus ikan penambah harga makanan, 3) Makan ikan langka untuk exp instan jika modal Silver Anda berlebih."
-        },
-        {
-          "heading": "Perlengkapan Wajib Nelayan",
-          "content": "Gunakan Fishing Bait (Umpan Cacing) untuk mempercepat umpan disambar ikan. Pakai baju nelayan lengkap karena jala pasifnya memberikan kecepatan menarik ikan hingga 50%+ lebih instan."
-        }
-      ]
-    },
-    "equipment_progression": {
-      "title": "🛡️ Garis Waktu Perkembangan Perlengkapan Pengumpul",
-      "description": "Panduan evolusi set pakaian, jenis alat, senjata lari, dan mount pendukung dari tier awal hingga puncak.",
-      "nodes": [
-        {
-          "tier": "Tier 2 - Tier 4",
-          "title": "Fase Pembentukan & Keamanan Penuh",
-          "focus": "Menaikkan level kecakapan dasar alat di Zona Biru dan Zona Kuning Royal Continent.",
-          "items": [
-            "Gunakan Alat Panen T2 s/d T4 sesuai profesi target.",
-            "Wajib beli Set Baju Pengumpul T4 (Cap, Garb, Boots) setelah level dasar terbuka demi ekstra yield panen.",
-            "Mount Sapi (Ox) T3 atau T4 diperbolehkan di fase ini karena kapasitas bebannya masif dan Anda tidak akan kehilangan barang jika jatuh pingsan di zona aman.",
-            "Gunakan Pork Pie T4 murah untuk melipatgandakan kecepatan memukul batu/kayu."
-          ]
-        },
-        {
-          "tier": "Tier 5 - Tier 6",
-          "title": "Fase Transisi Zona Berbahaya (Red & Black)",
-          "focus": "Meningkatkan keselamatan nyawa di atas kapasitas muatan barang.",
-          "items": [
-            "Peralatan Panen T5/T6 (Mulai gunakan varian Enchanted jika anggaran Silver cukup).",
-            "TINGGALKAN OX! Ganti mount Anda dengan Rusa Tunggang (Stag) T4 atau Kuda Zirah T5. Mount ini menjaga berat barang Anda tetap aman meskipun Anda dipaksa bertarung di darat.",
-            "Gunakan Senjata Kabur: Bloodletter (Pisau T4+) dikombinasikan dengan off-hand Mistcaller (mengurangi cooldown skill kabur), atau Double Bladed Staff yang memiliki dua skill lompatan dash jarak jauh.",
-            "Selalu bawa ramuan menghilang (Invisibility Potion) di tas Anda."
-          ]
-        },
-        {
-          "tier": "Tier 7 - Tier 8",
-          "title": "Fase Elite Gatherer Jantung Outlands",
-          "focus": "Meraih profit jutaan Silver per jam di zona hitam terdalam dengan ancaman konstan.",
-          "items": [
-            "Gunakan Alat Panen Utama Tier 7 atau Tier 8 murni (Dilengkapi Ava Tool / Alat Avalonian jika sanggup menanggung risiko harga belinya).",
-            "Baju Set Pengumpul Tier 7/8 Premium yang memberikan bonus panen hingga ratusan persen.",
-            "Mount Elite Wajib: Pest Lizard (Kadal Hijau) atau Swamp Salamander. Kadal memiliki ketahanan luar biasa dan tidak melambat saat diserang musuh beruntun.",
-            "Gunakan Avalonian Pork Pie jika memanen resource berkilau (Enchanted .2 / .3) untuk profit ledakan tertinggi di pasar."
-          ]
-        }
-      ]
+  "guide": {
+    "btnLabel": "Panduan Pemula",
+    "panelTitle": "Panduan Pemain Albion",
+    "panelSubtitle": "Server Asia — Perjalanan lengkapmu dari pemula hingga legenda",
+    "tab": {
+      "beginner": "Pemula",
+      "midgame": "Mid Game",
+      "endgame": "End Game",
+      "professions": "Profesi"
     }
   }
 }

@@ -8,386 +8,182 @@
     "extreme": "Extreme",
     "dangerous": "Dangerous"
   },
-  "menu": {
-    "toggle": "☰ Guide Menu",
-    "title": "Guide Catalog",
-    "progression": "Game Progression",
-    "early": "🌱 Early Game (Beginner)",
-    "mid": "⚔️ Mid Game (Transition)",
-    "end": "☠️ End Game (Outlands)",
-    "professions": "Profession Mastery",
-    "miner": "⛏️ Miner (Ore)",
-    "lumberjack": "🪓 Lumberjack (Wood)",
-    "skinner": "🔪 Skinner (Hide)",
-    "harvester": "🌿 Harvester (Fiber)",
-    "fisherman": "🎣 Fisherman (Fish)",
-    "equipment": "Gear Pathway",
-    "equip_prog": "🛡️ Tool & Armor Progression",
-    "back_to_home": "⬅ Back to Home"
-  },
   "tracker": {
-    "title": "Asia Server Time Analyst",
-    "peakTime": "Peak Hours:",
-    "status": "Safety Status:",
+    "title": "🕐 Asia Server Status",
+    "peakTime": "Peak Time:",
+    "status": "Status:",
     "calculating": "Calculating...",
     "peakTimeInfo": "14:00 UTC (9 PM WIB)",
-    "localTime": "Your Local Time",
+    "localTime": "Your Time",
     "serverTime": "Server Time (UTC)",
-    "safeStatus": "🟢 Low Activity - Highly Safe for Solo Farming",
-    "moderateStatus": "🟡 Moderate Activity - Stay Alert for Roaming Gankers",
-    "extremeStatus": "🔴 EXTREME DANGER - Peak Time for PvP & Guild Wars!"
+    "safeStatus": "🟢 Low Activity - Safe to Farm",
+    "moderateStatus": "🟡 Moderate Activity - Caution Advised",
+    "extremeStatus": "🔴 EXTREME DANGER - Peak PvP Time"
   },
   "hero": {
-    "badge": "COMPREHENSIVE MASTERCLASS 2026",
+    "badge": "2026 FARMING GUIDE",
     "title": "Albion Online Farming Guide",
-    "description": "Master the ultimate gathering tradecraft from beginner zones to elite Tier 8 Outlands. Tailored strictly for the Asia server ecosystem with step-by-step progress lanes.",
-    "cta": "Explore Dashboard Content"
+    "description": "Master the art of resource gathering across all tiers. From beginner zones to the most dangerous T8 Outlands, discover the best farming spots and strategies.",
+    "cta": "Start Farming",
+    "guideBtn": "📖 Open Guide"
   },
   "builds": {
-    "title": "⚔️ Recommended Escape Configurations",
-    "description": "Optimize your gear specifications to survive ambush parameters and slip away seamlessly from gank networks.",
-    "solo": "Solo Gatherer (Maximum Speed)",
-    "tank": "Tank Gatherer (Maximum Defense)",
-    "balanced": "Balanced Setup (Versatile Utility)",
-    "typeSolo": "Solo / High Mobility Burst",
-    "typeGroup": "Group / Rigid Defenses",
-    "typeVersatile": "Flexible / Balanced Adaptation"
+    "title": "⚔️ Recommended Gathering Builds",
+    "description": "Optimize your equipment for maximum efficiency and safety while gathering T8 resources.",
+    "solo": "Solo Gatherer (Speed)",
+    "tank": "Tank Gatherer (Safe)",
+    "balanced": "Balanced Gatherer",
+    "typeSolo": "Solo/Fast",
+    "typeGroup": "Group/Safe",
+    "typeVersatile": "Versatile"
   },
   "biomes": {
-    "title": "Biome Matrices & Capital Logistics",
-    "description": "Each major capital city features custom localized refining multipliers and resource weights. Anchor your operations appropriately.",
-    "primaryResource": "Primary Resource (100% Core Distribution)",
-    "secondaryResource": "Secondary Resource (Moderate Inflow)",
-    "tertiaryResource": "Tertiary Resource (Low Fractional Spawns)"
+    "title": "Biome Distribution",
+    "description": "Each city specializes in different resources. Choose your farming location based on what you need.",
+    "primaryResource": "Primary Resource",
+    "secondaryResource": "Secondary",
+    "tertiaryResource": "Tertiary"
   },
   "biome_names": {
-    "swamp": "Swamplands (Thetford)",
-    "forest": "The Woodlands (Lymhurst)",
-    "mountain": "Glacier Peaks (Fort Sterling)",
-    "highland": "The Highlands (Martlock)",
-    "steppe": "Arid Steppes (Bridgewatch)"
+    "swamp": "Swamp",
+    "forest": "Forest",
+    "mountain": "Mountain",
+    "highland": "Highland",
+    "steppe": "Steppe"
   },
   "biome_descriptions": {
-    "swamp": "Misty wetlands rich with organic Fiber crops. Perfect for weavers looking for refining bonuses.",
-    "forest": "Dense primal forests hosting towering ancient trees for high-yield Wood logging industries.",
-    "mountain": "Frozen, dangerous mountaintops packed full of premium hard metal deposits and Ore veins.",
-    "highland": "Steep rocky crags providing absolute abundance of Stone foundation building blocks.",
-    "steppe": "Sunburnt dry plateaus where dangerous fauna roam. Prime territory for Hide skinning operations."
+    "swamp": "Mystical wetlands with abundant fiber resources and hidden dangers in the mist.",
+    "forest": "Ancient woodlands filled with towering trees and rich wood resources.",
+    "mountain": "Majestic peaks with glowing ore deposits and treacherous terrain.",
+    "highland": "Rocky plateaus with plentiful stone and valuable mineral deposits.",
+    "steppe": "Vast plains where hunters gather hides and fiber under the setting sun."
   },
   "tiers": {
-    "title": "Gathering Tier Progression Grid",
-    "description": "Sequential roadmap mapping gathering zones from absolute security to full lawless environments.",
-    "location": "Map Quadrant",
-    "zoneType": "PvP Flag Parameters",
-    "resources": "Available Nodes",
-    "tips": "Pro Strategy Directives",
-    "danger": "Threat Matrix",
+    "title": "Tier Progression Guide",
+    "description": "Learn the best strategies for each tier level, from safe beginner zones to dangerous T8 Outlands.",
+    "location": "Location",
+    "zoneType": "Zone Type",
+    "resources": "Available Resources",
+    "tips": "Pro Tips",
+    "danger": "Danger",
+    "safe": "Safe",
+    "moderate": "Moderate",
+    "dangerous": "Dangerous",
     "tier1": {
-      "location": "Beginner Towns (Royal Continent)",
-      "zoneType": "Blue Zone (Absolute Safety)",
+      "location": "Beginner Zone (Royal Continent)",
+      "zoneType": "Blue Zone",
       "tips": [
-        "Focus on leveling all fundamental tool archetypes from T1 to T4 without hesitation.",
-        "CRITICAL: Do NOT spend Learning Points on T1-T3 nodes. Keep them for Tier 4+ thresholds!",
-        "Gather anything in sight to build mechanical comfort with nodes."
+        "Focus on leveling up your gathering tools quickly",
+        "Use Learning Points to speed up progression",
+        "Don't spend too much time here - move to T2-T3 ASAP"
       ]
     },
     "tier4": {
-      "location": "Royal Continent - Neighboring Yellow & Red Gates",
-      "zoneType": "Yellow Zone (Knockdown Only - Safe from Full Loot)",
+      "location": "Royal Continent - Yellow & Red Zones",
+      "zoneType": "Yellow/Red Zone",
       "tips": [
-        "Equip specialized T4 Gathering Apparel immediately for output yield multipliers.",
-        "Always consume Pork Pie to optimize packing weight and striking speeds.",
-        "Hostile actions here only trigger knockdowns; you will not drop inventory upon defeat."
-      ]
-    },
-    "tier5": {
-      "location": "Transition Threshold - Red Zone Exterior",
-      "zoneType": "Red Zone (Full Loot PvP - High Hostility)",
-      "tips": [
-        "CRITICAL DIRECTIVE: Ban the use of Ox mounts here! If dismounted by hostiles, your weight will spike to 100%+, locking your escape options.",
-        "Transition immediately to a T4 Riding Stag or T5 Horse to maintain character-bound weight parameters.",
-        "Monitor the local hostile player counter located explicitly at the bottom-right corner of your minimap."
+        "Red zones offer better resource yields but higher risk",
+        "Always use Pork Pie to increase carry capacity",
+        "Consider gathering gear for yield bonuses"
       ]
     },
     "tier6": {
-      "location": "Outlands Frontier - Outer Black Rim",
-      "zoneType": "Black Zone (Lawless PvP - Full Loot)",
+      "location": "Outlands - Black Zone",
+      "zoneType": "Black Zone",
       "tips": [
-        "Drink from the Invisibility Shrine found immediately inside the main city portal hall before stepping outside.",
-        "Never farm the direct exit map of the portal; travel 2-3 maps deep to bypass portal campers.",
-        "Keep your mount circle within click range at all times during node harvesting."
+        "Use Invisibility Shrines for safe travel to deeper zones",
+        "Farm during off-peak hours to avoid gankers",
+        "Always plan an escape route"
       ]
     },
     "tier7": {
-      "location": "Deep Outlands - High Tier Black Matrix",
-      "zoneType": "Black Zone (Advanced Lawless)",
+      "location": "Outlands - Deep Black Zone",
+      "zoneType": "Black Zone",
       "tips": [
-        "Utilize Roads of Avalon portals as secret bypass vectors for emergency extractions or rare node discoveries.",
-        "Solo operators should look for Gold Mist wisps; pocket dimensions offer safer environments than open maps.",
-        "Maintain high-tier active inventory slots containing Invisibility Potions at all times."
+        "Consider farming in Gold Mists for solo players",
+        "Use Roads of Avalon for group farming",
+        "High competition - timing is key"
       ]
     },
     "tier8": {
-      "location": "Central Outlands - Primal Deep Black Zone",
-      "zoneType": "Black Zone Tier 8 (Guild War Sectors)",
+      "location": "Outlands - Deepest Black Zone",
+      "zoneType": "Black Zone",
       "tips": [
-        "T8 nodes spawn near Guild Watchtower territories. Heavily contested by major alliances.",
-        "Farming here requires a protective alliance presence or operation during designated Low Activity hours.",
-        "Premium anti-gank mounts like the Pest Lizard or Swamp Salamander are mandatory to survive coordinated chases."
+        "Watchtower territories are the best T8 sources",
+        "Farm with guild support or in hidden spots",
+        "Expect extreme competition and constant danger",
+        "Use premium gear and mounts for survival"
       ]
     }
   },
   "t8Maps": {
-    "title": "T8 Resource Strategic Coordinates",
-    "description": "Verified map labels where Tier 8 pure material configurations spawn inside the lawless Black Zones.",
-    "fiber": "Fiber Cluster Maps",
-    "wood": "Logging Core Maps",
-    "hide": "Skinning Ground Maps",
-    "stone": "Quarry Edge Maps",
-    "ore": "Metal Vein Maps"
+    "title": "T8 Farming Locations",
+    "description": "Specific map names for each resource type in the Outlands (Black Zone). These are the most valuable farming spots.",
+    "fiber": "Fiber",
+    "wood": "Wood",
+    "hide": "Hide",
+    "stone": "Stone",
+    "ore": "Ore"
   },
   "events": {
-    "title": "📅 Asia Server Operational Event Cadence",
-    "description": "Align your farming activity loops with major server events to stay clear of localized battlefield groups.",
-    "worldBoss": "World Boss Spawning Windows",
-    "worldBossDesc": "Spawns every even hour UTC (00:00, 02:00, 04:00, etc.) on the Asia cluster to circumvent daily maintenance down times.",
-    "worldBossNote": "High cluster density. Avoid solo gathering near these sectors during active spawn periods.",
-    "primeTime": "Asia Server Cluster Peak Time",
-    "primeTimeDesc": "Runs from 13:00 - 15:00 UTC (8 PM - 10 PM WIB). Absolute peak convergence for massive guild battles.",
-    "primeTimeNote": "Extreme threat level for solo entities. Highly advised to stick to safe rings or log off.",
-    "dangerWindow": "Coordinated Gank Squad Cycles",
-    "dangerWindowDesc": "Active windows where specialized hunter crews (5-10 players) sweep deep black zones with catching nets.",
-    "dangerWindowNote": "Always play with high directional volume to catch off-screen mount hoof sounds early.",
-    "lowActivity": "Golden Solo Gathering Window",
-    "lowActivityDesc": "From 21:00 to 09:00 UTC (Morning to Afternoon WIB). Most Asia server users are offline for school or corporate work.",
-    "lowActivityNote": "The ultimate peaceful window to secure massive millions of Silver profits in deep zones completely unbothered."
+    "title": "📅 Asia Server Events & Schedule",
+    "description": "Important events and timings for Asia server farming activities.",
+    "worldBoss": "World Boss Spawn",
+    "worldBossDesc": "World Bosses spawn every even-numbered hour (00:00, 02:00, 04:00, etc.) on Asia server to avoid maintenance collision.",
+    "worldBossNote": "High risk, high reward farming opportunity",
+    "primeTime": "Asia Prime Time",
+    "primeTimeDesc": "Peak activity period for PvP and guild activities. Extreme danger in black zones.",
+    "primeTimeNote": "Best time for group farming with guild protection",
+    "dangerWindow": "Peak Danger Window",
+    "dangerWindowDesc": "Highest concentration of gankers and PvP players. Avoid solo gathering in black zones.",
+    "dangerWindowNote": "Stick to blue/yellow zones or farm with group",
+    "lowActivity": "Low Activity Period",
+    "lowActivityDesc": "Safest time for solo farming with reduced competition and ganking risk.",
+    "lowActivityNote": "Best for new players and solo farmers"
   },
   "proTips": {
     "efficiency": {
-      "title": "Efficiency Directives",
+      "title": "Efficiency Tips",
       "tips": [
-        "Focus exclusively on ONE resource type until you hit T8 unlock thresholds before diversifying. Speed up your economic baseline.",
-        "Always consume Pork Pie before engagement with a node; resource yield bonuses grant completely free materials.",
-        "Apply Learning Points ONLY to bypass the final 20% exp wall of the primary tool tier upgrades."
+        "Use Pork Pie to increase carry capacity",
+        "Gather in biomes matching your resource type",
+        "Focus on one resource to T8 for max profit",
+        "Use Learning Points to speed up leveling"
       ],
-      "radiantTip": "💡 Patch Update: Leverage the brand-new 'Loot All' button system from the Radiant Wilds build for ultra-fast pve collection!"
+      "radiantTip": "💡 Tip: Use the new Loot All button from Radiant Wilds for faster PvE farming!"
     },
     "safety": {
-      "title": "Survival Protocols",
+      "title": "Safety Strategies",
       "tips": [
-        "Keep your mouse cursor positioned natively near your mount silhouette. Remount immediately upon seeing red names.",
-        "Rely heavily on specialized escape skills on gathering boots (e.g., Miner Workboots possess the highest speed burst).",
-        "Avoid traveling inside standard straight dirt pathways; gank crews routinely pitch blockades there."
+        "Use Invisibility Shrines for safe travel",
+        "Farm during off-peak server hours",
+        "Always have escape gear ready",
+        "Travel with guild members when possible"
       ]
     },
     "profitability": {
-      "title": "Market Profit Dynamics",
+      "title": "Resource Profitability",
       "tips": [
-        "Stone: Extremely low competition metrics currently; excellent stable value for high-tier guild structures.",
-        "Fisherman: High cash-flow predictability anywhere with deep water bodies; entirely detached from node respawn bottlenecks.",
-        "Ore & Hide: Commands premium Silver price points at central markets; heavily contested maps with high threat indices."
+        "Stone: Low competition, stable profit",
+        "Fishing: High profit, requires patience",
+        "Ore: Medium competition, good returns",
+        "Hide & Fiber: High competition, varied profit"
       ]
     }
   },
   "footer": {
-    "text": "Albion Online Farming Guide 2026 • Optimized Static Build for Cloudflare Pages Deployment",
-    "author": "Creative Engine Architect: ABID"
+    "text": "Albion Online Farming Guide 2026 • Last Updated: May 2026",
+    "author": "Author: ABID"
   },
-  "detailed_guides": {
-    "early_game": {
-      "title": "🌱 Comprehensive Early Game Guide (The Foundation Era)",
-      "description": "Crucial initial operations for new characters on the Royal Continent to establish their economic engine.",
-      "sections": [
-        {
-          "heading": "1. Starting Out at the Starter Cross Zones",
-          "content": "Upon completing the tutorial, you will land in a small outpost (e.g., Swamp Cross, Forest Cross). Gather Tier 1 and Tier 2 raw resources here with basic tier tools until you can unlock Tier 3 options. Do not linger in these starter zones longer than necessary."
-        },
-        {
-          "heading": "2. The Golden Rule of Learning Points (LP)",
-          "content": "CRITICAL: Never allocate your scarce Learning Points (LP) to unlock Tier 2 or Tier 3 harvesting tools. Let the progression bar fill organically up to the 20% mark. Lock your LP exclusively for Tier 4, Tier 5, and subsequent massive tier jumps where the raw exp requirement escalates exponentially."
-        },
-        {
-          "heading": "3. Sampling All Node Types",
-          "content": "Purchase all variant Tier 3 tools (Axe, Pickaxe, Skinning Knife, Sickle, Stone Hammer). Spend time in safe Blue Zones collecting everything. Analyze the market prices and feel the minigame pacing. After this, pick ONE or TWO primary paths. Constantly switching lines will heavily stunt your journey to end-game wealth."
-        },
-        {
-          "heading": "4. Migration to Major Capital Hubs",
-          "content": "Each primary city boasts native industry bonuses. Move your operations to Fort Sterling if you choose Ore mining, or Lymhurst if you pursue Logging. Store all your initial asset pools in that city's bank vault; it will serve as your command base."
-        }
-      ]
-    },
-    "mid_game": {
-      "title": "⚔️ Mid Game Transition Blueprint (Entering Lethal Rings)",
-      "description": "How to transition safely from secure regions into Red and Black Zones while generating millions in liquid Silver.",
-      "sections": [
-        {
-          "heading": "1. Decommissioning the Ox Mount",
-          "content": "The number one downfall of mid-game players is taking a Transport Ox into full-loot maps due to inventory greed. Ox mounts use a passive load weight system tied directly to their active presence. If you are dismounted or forced off by a gank squad, your active load instantly spikes to 150%+, pinning your character to the ground. Switch to a T4 Riding Stag or T5 Armored Horse which utilizes independent character load weights."
-        },
-        {
-          "heading": "2. Reading the Hostile Minimap Metric",
-          "content": "When traversing Royal Continent Red Zones, check the specific numeric indicator at the bottom-right of your UI. This lists exactly how many flagged criminal players are active in that zone. If the counter sits above zero, exercise extreme caution. If it spikes rapidly, remount and change maps immediately."
-        },
-        {
-          "heading": "3. Master the Outlands Portal Invisibility Loop",
-          "content": "When stepping into Black Zones from capital portal rooms, interact directly with the Invisibility Shrines placed at the chamber exits. This grants long-lasting stealth and speed immunities, providing ample runway to drive away from portal-choke blockades routinely pitched by gank gangs."
-        },
-        {
-          "heading": "4. Consumable Management: Pork Pies & Invisibility Pots",
-          "content": "Never venture out without active food buffs from Pork Pies to maximize gathering yields. Equip an Invisibility Potion in your active utility slot. If spotted on foot, break line of sight using weapon dash mechanics, chug the potion, and break away at sharp 90-degree angles to completely break tracking paths."
-        }
-      ]
-    },
-    "end_game": {
-      "title": "☠️ End Game Outlands Dominance Guide (T7-T8 Hegemony)",
-      "description": "High-tier deep lawless operations inside the core zone ring to extract extreme tier wealth in coordination with guild networks.",
-      "sections": [
-        {
-          "heading": "1. Navigating Deep Lawless Clusters",
-          "content": "Tier 7 and Tier 8 materials only generate in deep Outlands territories. These sectors are fully lawless and dominated by coordinated alliance armies (Zergs). You must read the local map sovereignty to understand alliance political boundaries before harvesting."
-        },
-        {
-          "heading": "2. Leveraging Watchtower Territories",
-          "content": "The highest tier node concentrations spawn directly inside active Guild Watchtower perimeters. Joining an alliance that owns these teritories provides a major safety umbrella, as the stationary towers will target and blast outside gank squads trying to breach your position."
-        },
-        {
-          "heading": "3. Investing in Anti-Gank Luxury Mounts",
-          "content": "Cheap mounts are unviable in central sectors. Allocate capital for a Pest Lizard or Swamp Salamander. The Pest Lizard is exceptionally powerful: its movement speeds do not decay when receiving combat hits from world mobs or initial player attacks, and its passive traits disrupt lock-on targets."
-        },
-        {
-          "heading": "4. Deep Avalon Road Sub-Sectors",
-          "content": "Keep an eye out for deep green or blue Roads of Avalon portals. Avalon dimensions house massive static resource guardians (Resource Aspects) that grant hundreds of raw hits upon collapse. Avalon also functions as an unpredictable, safe emergency extraction wormhole back to the Royal Continent."
-        }
-      ]
-    },
-    "miner": {
-      "title": "⛏️ Profession Core: The Ore Miner Mastery",
-      "description": "Deep tactical routes for mining valuable high-market shiny metals from mountain ranges.",
-      "sections": [
-        {
-          "heading": "Core Resource & Biome Mapping",
-          "content": "Your primary target matrix is Ore veins. Your primary bases of operation are Fort Sterling (Mountain biome) for high density nodes, and Martlock (Highland biome) for secondary veins. Ore nodes display as glowing copper, iron, or titanium stone clusters."
-        },
-        {
-          "heading": "The Power of Miner Garb Skill Sets",
-          "content": "The Miner Workboots feature the legendary active skill called 'Flee'. This provides the single fastest running velocity burst across the entire game ecosystem at the cost of combat actions. It is your absolute get-out-of-jail-free card when cornered by catching configurations."
-        },
-        {
-          "heading": "Tactical Advice",
-          "content": "Always carry the highest tier pickaxe available. In mountain clusters, watch out for ice elemental mobs which can be skinned after destruction for massive bonus mining exp pools."
-        }
-      ]
-    },
-    "lumberjack": {
-      "title": "🪓 Profession Core: The Lumberjack Core Guide",
-      "description": "Mastering the logging and timber industries across thick woodland territories.",
-      "sections": [
-        {
-          "heading": "Core Resource & Biome Mapping",
-          "content": "Your target line is Wood logs. Anchor your storage loops in Lymhurst (Forest biome) for core operations, and use Thetford (Swamp biome) as an alternate lane. Wood maintains permanent market demands due to bow, staff, and territory building construction pipelines."
-        },
-        {
-          "heading": "Lumberjack Defense Metrics",
-          "content": "The Lumberjack attire path features defense armor skills that continuously compound physical armor values while in active motion, preventing long-range slowing arrows from crippling your escape speeds."
-        },
-        {
-          "heading": "Tactical Advice",
-          "content": "High-tier T7/T8 trees have easily readable gigantic proportions on Outlands maps. Prioritize striking nodes wrapped in green (.1), blue (.2), or purple (.3) aura visual ripples for massive economic profit spikes."
-        }
-      ]
-    },
-    "skinner": {
-      "title": "🔪 Profession Core: The Animal Skinner Path",
-      "description": "The highest grossing financial gathering line that requires active mechanical combat execution.",
-      "sections": [
-        {
-          "heading": "Core Resource & Biome Mapping",
-          "content": "Your primary target asset is raw Hide leather. The premier hub for skinning operations is Bridgewatch (Steppe biome) followed by Lymhurst (Forest biome). Hides command premium pricing due to the immense popularity of leather armor sets."
-        },
-        {
-          "heading": "The Double Exp Efficiency Loop",
-          "content": "THE SKINNER SECRET: Unlike other passive extraction professions, a Skinner must actively slaughter dangerous fauna before skinning can take place. This ensures your character extracts massive Combat Fame along with Gathering Fame simultaneously, doubling character progression speed."
-        },
-        {
-          "heading": "Tactical Advice",
-          "content": "Utilize weapons with high localized AoE burst damage profiles (e.g., Battleaxe or Deathgivers) to drop animal packs fast before clearing them with a Pork Pie buff active."
-        }
-      ]
-    },
-    "harvester": {
-      "title": "🌿 Profession Core: The Fiber Harvester Blueprint",
-      "description": "Harvesting ancient fiber lines across mystical swamp setups.",
-      "sections": [
-        {
-          "heading": "Core Resource & Biome Mapping",
-          "content": "Your operational focus is Fiber crops. Anchor your primary market bins inside Thetford (Swamp biome) or Bridgewatch (Steppe biome). Fiber represents the foundation material for all magical cloth armor and specialized capes."
-        },
-        {
-          "heading": "The Harvester Defensive Advantage",
-          "content": "The Harvester Robe offers access to the 'Windwall' spell. When fleeing pursuit groups, deploy this wind wall barrier directly behind your running lane. Pursuing hostiles hitting the wall are violently deflected away, granting clean gaps to remount safely."
-        },
-        {
-          "heading": "Tactical Advice",
-          "content": "High-tier Fiber crops routinely grow on isolated mini-islands hidden inside deep swamp lagoons. Scout water margins to find unguarded T8 purple nodes."
-        }
-      ]
-    },
-    "fisherman": {
-      "title": "🎣 Profession Core: The Master Fisherman Lane",
-      "description": "A completely isolated, peaceful trade path that bypasses traditional node extraction competition entirely.",
-      "sections": [
-        {
-          "heading": "Core Mechanics & Water Mapping",
-          "content": "Fishermen are entirely untethered from rigid node coordinates. Any water body (city ponds, deep oceans, black swamp channels) can be fished. It utilizes an independent leveling grid paired with a mouse-balancing mechanical minigame."
-        },
-        {
-          "heading": "Advanced Profit Processing Chains",
-          "content": "Never sell raw fish direct to buyers. Maximize liquid returns via three pathways: 1) Chop catches at butcher stalls into 'Chopped Fish' for culinary ingredients, 2) Harvest Seaweed to cook advanced fish sauces, or 3) Eat rare species to instantly inject fishing mastery exp into your grid."
-        },
-        {
-          "heading": "Mandatory Fisherman Loadouts",
-          "content": "Always coat lines with Fishing Bait to reduce hook delay windows. Equip full Fisherman oilskins because the passive traits accelerate fish pulling mechanics by up to 50% instantly."
-        }
-      ]
-    },
-    "equipment_progression": {
-      "title": "🛡️ Strategic Equipment & Gathering Gear Progression Timeline",
-      "description": "An exhaustive technological evolution chart mapping tools, armors, escapes, and mounts from novice rings to elite black setups.",
-      "nodes": [
-        {
-          "tier": "Tier 2 - Tier 4",
-          "title": "Basic Gathering & Safety Incubation",
-          "focus": "Maxing out basic tool proficiencies within safe Royal Continent boundaries.",
-          "items": [
-            "Acquire standard T2 through T4 harvesting tools matching your target trade.",
-            "Buy a full set of T4 Gathering Gear (Cap, Garb, Workboots) the moment the skill node hits 100% to activate yield multiplier percentages.",
-            "Transport Ox mounts are fully acceptable here; large load tolerances optimize safe zone loops where items cannot be lost upon defeat.",
-            "Keep baseline T4 Pork Pies active to compound basic striking frequencies."
-          ]
-        },
-        {
-          "tier": "Tier 5 - Tier 6",
-          "title": "Lethal Zone Transition & Tactical Evasion Gear",
-          "focus": "Prioritizing active character survival metrics over raw inventory space limitations.",
-          "items": [
-            "T5/T6 Specialized Tools (Incorporate Enchanted tool modifications if Silver capital permits).",
-            "BANISH THE TRANSPORT OX: Transition completely to a T4 Riding Stag or T5 Armored Horse. This isolates your item weight parameters from mount states.",
-            "Equip Escape Weapons: A T4+ Bloodletter paired with an off-hand Mistcaller (minimizes skill cooldown clocks), or a Double Bladed Staff for dual long-range jump capabilities.",
-            "Slot an active Invisibility Potion into your hotkey dashboard for immediate split-second tracking breaks."
-          ]
-        },
-        {
-          "tier": "Tier 7 - Tier 8",
-          "title": "Elite Gatherer Hegemony Configurations",
-          "focus": "Extracting maximum financial returns in central lawless zones under permanent apex danger indicators.",
-          "items": [
-            "Pure Tier 7 or Tier 8 Primary Extraction Tools (Upgrade to Avalonian variant tools if you can absorb high replacement capital costs).",
-            "Full Master tier T7/T8 Gathering Gear Sets generating maximum yield bonuses.",
-            "Elite Mount Requirements: Pest Lizard or Swamp Salamander. The lizard boasts unmatched consistency, refusing to drop speeds when receiving combat slowing strikes.",
-            "Consume Avalonian Pork Pies when stripping shiny high-enchanted nodes (.2/.3) to trigger massive price windfalls at major auction houses."
-          ]
-        }
-      ]
+  "guide": {
+    "btnLabel": "Newbie Guide",
+    "panelTitle": "Albion Player Guide",
+    "panelSubtitle": "Asia Server — Your complete journey from beginner to legend",
+    "tab": {
+      "beginner": "Beginner",
+      "midgame": "Mid Game",
+      "endgame": "End Game",
+      "professions": "Professions"
     }
   }
 }
