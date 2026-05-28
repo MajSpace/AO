@@ -124,6 +124,88 @@
     "stone": "Stone",
     "ore": "Ore"
   },
+  "progression": {
+    "title": "Progression Paths",
+    "description": "Choose your path and learn what to focus on at each stage of your Albion journey.",
+    "beginner": "Beginner",
+    "midgame": "Mid-Game",
+    "endgame": "End-Game",
+    "focus": "Focus",
+    "activity": "Activity",
+    "goal": "Goal",
+    "tips": "Pro Tips",
+    "beginnerFocus": "Tutorial, reaching the first Royal City, and unlocking T4 tools.",
+    "beginnerActivity": "Blue Zones only. Gather everything to see what you like.",
+    "beginnerGoal": "Reach T4 gathering in at least one resource.",
+    "beginnerTips": [
+      "Use Learning Points (LP) ONLY for gathering, never for combat.",
+      "Focus on one resource to level up faster.",
+      "Don't spend too much time in Blue Zones once you hit T4."
+    ],
+    "midgameFocus": "Specializing in one resource and moving to Yellow/Red Zones.",
+    "midgameActivity": "Yellow Zone for safe practice, Red Zone for better loot.",
+    "midgameGoal": "Reach T6 gathering and unlock the ability to enter the Outlands.",
+    "midgameTips": [
+      "Start using Journals (Laborers) for extra passive income.",
+      "Join a non-mandatory guild for gathering buffs.",
+      "Always use Pork Pie to increase your yield."
+    ],
+    "endgameFocus": "T7-T8 resources in the Outlands.",
+    "endgameActivity": "Black Zones, Roads of Avalon, and Mists.",
+    "endgameGoal": "Maximize specialization (100/100) for maximum yield and profit.",
+    "endgameTips": [
+      "Use high-tier gathering gear and mounts like Spectral Direboar.",
+      "The Mists are the safest way for solo players to find T7-T8.",
+      "Timing is everything - avoid peak PvP hours."
+    ]
+  },
+  "professions": {
+    "title": "Profession Guides",
+    "description": "Explore detailed guides for each gathering profession and find your perfect fit.",
+    "woodcutter": "Woodcutter",
+    "miner": "Miner",
+    "skinner": "Skinner",
+    "fisher": "Fisher",
+    "tips": "Pro Tips",
+    "profitLabel": "Profit Potential",
+    "difficultyLabel": "Difficulty",
+    "woodcutterTitle": "Woodcutter (Lymhurst)",
+    "woodcutterDesc": "Wood is essential for crafting bows, staves, and furniture. Lymhurst is the primary city for woodcutters.",
+    "woodcutterProfit": "High",
+    "woodcutterDifficulty": "Medium",
+    "woodcutterTips": [
+      "High demand for bows and staves ensures stable prices.",
+      "Lymhurst is surrounded by forests with abundant wood.",
+      "Watch out for gankers in the Red Zones near Lymhurst."
+    ],
+    "minerTitle": "Miner (Fort Sterling)",
+    "minerDesc": "Ore is used for plate armor and weapons. Fort Sterling is the hub for miners.",
+    "minerProfit": "Very High",
+    "minerDifficulty": "High",
+    "minerTips": [
+      "Fierce competition due to high demand for plate armor.",
+      "Mountains around Fort Sterling are rich in ore.",
+      "Always bring a defensive build while mining."
+    ],
+    "skinnerTitle": "Skinner (Martlock)",
+    "skinnerDesc": "Hides are needed for leather armor. Martlock is the best place for skinners.",
+    "skinnerProfit": "Very High",
+    "skinnerDifficulty": "High",
+    "skinnerTips": [
+      "Requires killing mobs first, making it slower but very profitable.",
+      "Rare hides can sell for a massive amount of silver.",
+      "Steppes around Martlock have the best hide nodes."
+    ],
+    "fisherTitle": "Fisherman (Anywhere)",
+    "fisherDesc": "Fishing provides food and rare ingredients for potions. Can be done in any biome with water.",
+    "fisherProfit": "Stable",
+    "fisherDifficulty": "Low",
+    "fisherTips": [
+      "Relaxing activity that doesn't require finding specific nodes.",
+      "Rare fish and seaweed are the main sources of profit.",
+      "Fishing in the Mists is safe and very lucrative."
+    ]
+  },
   "events": {
     "title": "📅 Asia Server Events & Schedule",
     "description": "Important events and timings for Asia server farming activities.",

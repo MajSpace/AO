@@ -116,13 +116,95 @@
     }
   },
   "t8Maps": {
-    "title": "Lokasi Pengumpulan T8",
-    "description": "Nama peta spesifik untuk setiap tipe sumber daya di Outlands (Zona Hitam). Ini adalah spot pengumpulan paling berharga.",
+    "title": "Lokasi Farming T8",
+    "description": "Nama peta spesifik untuk setiap jenis sumber daya di Outlands (Zona Hitam). Ini adalah spot farming paling berharga.",
     "fiber": "Serat (Fiber)",
     "wood": "Kayu (Wood)",
     "hide": "Kulit (Hide)",
     "stone": "Batu (Stone)",
     "ore": "Bijih (Ore)"
+  },
+  "progression": {
+    "title": "Jalur Progresi",
+    "description": "Pilih jalur Anda dan pelajari apa yang perlu difokuskan pada setiap tahap perjalanan Albion Anda.",
+    "beginner": "Pemula (Beginner)",
+    "midgame": "Pertengahan (Mid-Game)",
+    "endgame": "Akhir (End-Game)",
+    "focus": "Fokus",
+    "activity": "Aktivitas",
+    "goal": "Tujuan",
+    "tips": "Tips Pro",
+    "beginnerFocus": "Tutorial, mencapai Kota Royal pertama, dan membuka alat T4.",
+    "beginnerActivity": "Hanya Zona Biru (Blue Zone). Kumpulkan semua untuk melihat apa yang Anda suka.",
+    "beginnerGoal": "Mencapai pengumpulan T4 di setidaknya satu sumber daya.",
+    "beginnerTips": [
+      "Gunakan Learning Points (LP) HANYA untuk pengumpulan, jangan pernah untuk pertarungan.",
+      "Fokus pada satu sumber daya untuk naik level lebih cepat.",
+      "Jangan menghabiskan terlalu banyak waktu di Zona Biru setelah mencapai T4."
+    ],
+    "midgameFocus": "Spesialisasi pada satu sumber daya dan pindah ke Zona Kuning/Merah.",
+    "midgameActivity": "Zona Kuning untuk latihan aman, Zona Merah untuk loot yang lebih baik.",
+    "midgameGoal": "Mencapai pengumpulan T6 dan membuka kemampuan untuk masuk ke Outlands.",
+    "midgameTips": [
+      "Mulai gunakan Jurnal (Laborer) untuk pendapatan pasif tambahan.",
+      "Bergabunglah dengan guild non-mandatory untuk buff pengumpulan.",
+      "Selalu gunakan Pork Pie untuk meningkatkan hasil panen Anda."
+    ],
+    "endgameFocus": "Sumber daya T7-T8 di Outlands.",
+    "endgameActivity": "Zona Hitam (Black Zone), Roads of Avalon, dan Mists.",
+    "endgameGoal": "Maksimalkan spesialisasi (100/100) untuk hasil dan keuntungan maksimal.",
+    "endgameTips": [
+      "Gunakan perlengkapan pengumpulan tier tinggi dan mount seperti Spectral Direboar.",
+      "Mists adalah cara teraman bagi pemain solo untuk menemukan T7-T8.",
+      "Waktu adalah segalanya - hindari jam puncak PvP."
+    ]
+  },
+  "professions": {
+    "title": "Panduan Profesi",
+    "description": "Jelajahi panduan mendetail untuk setiap profesi pengumpulan dan temukan yang paling cocok untuk Anda.",
+    "woodcutter": "Penebang Kayu",
+    "miner": "Penambang",
+    "skinner": "Pengulit",
+    "fisher": "Pemancing",
+    "tips": "Tips Pro",
+    "profitLabel": "Potensi Keuntungan",
+    "difficultyLabel": "Tingkat Kesulitan",
+    "woodcutterTitle": "Penebang Kayu (Lymhurst)",
+    "woodcutterDesc": "Kayu sangat penting untuk membuat busur, tongkat, dan furnitur. Lymhurst adalah kota utama bagi penebang kayu.",
+    "woodcutterProfit": "Tinggi",
+    "woodcutterDifficulty": "Sedang",
+    "woodcutterTips": [
+      "Permintaan tinggi untuk busur dan tongkat memastikan harga stabil.",
+      "Lymhurst dikelilingi oleh hutan dengan kayu yang melimpah.",
+      "Waspadai ganker di Zona Merah dekat Lymhurst."
+    ],
+    "minerTitle": "Penambang (Fort Sterling)",
+    "minerDesc": "Bijih digunakan untuk armor plat dan senjata. Fort Sterling adalah pusat bagi penambang.",
+    "minerProfit": "Sangat Tinggi",
+    "minerDifficulty": "Tinggi",
+    "minerTips": [
+      "Persaingan ketat karena permintaan tinggi untuk armor plat.",
+      "Pegunungan di sekitar Fort Sterling kaya akan bijih.",
+      "Selalu bawa build defensif saat menambang."
+    ],
+    "skinnerTitle": "Pengulit (Martlock)",
+    "skinnerDesc": "Kulit dibutuhkan untuk armor kulit. Martlock adalah tempat terbaik bagi pengulit.",
+    "skinnerProfit": "Sangat Tinggi",
+    "skinnerDifficulty": "Tinggi",
+    "skinnerTips": [
+      "Memerlukan membunuh mob terlebih dahulu, membuatnya lebih lambat tapi sangat menguntungkan.",
+      "Kulit langka bisa terjual dengan jumlah perak yang sangat besar.",
+      "Steppes di sekitar Martlock memiliki node kulit terbaik."
+    ],
+    "fisherTitle": "Pemancing (Di Mana Saja)",
+    "fisherDesc": "Memancing menyediakan makanan dan bahan langka untuk ramuan. Bisa dilakukan di biome mana pun yang ada air.",
+    "fisherProfit": "Stabil",
+    "fisherDifficulty": "Rendah",
+    "fisherTips": [
+      "Aktivitas santai yang tidak memerlukan pencarian node spesifik.",
+      "Ikan langka dan rumput laut adalah sumber utama keuntungan.",
+      "Memancing di Mists aman dan sangat menguntungkan."
+    ]
   },
   "events": {
     "title": "📅 Jadwal & Event Server Asia",
