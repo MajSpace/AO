@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albion Online Farming Guide 2026</title>
+    <title>Albion Online Farming Guide</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Top Header & Navigation -->
+
+    <!-- ===== HEADER ===== -->
     <header class="sticky-header">
         <div class="container">
             <div class="header-content">
@@ -20,172 +21,197 @@
                         <button class="lang-btn active" data-lang="en">EN</button>
                         <button class="lang-btn" data-lang="id">ID</button>
                     </div>
-                    <button class="menu-toggle-btn" id="menuToggleBtn" data-i18n="menu.toggle">☰ Menu Guide</button>
+                    <!-- GUIDE PANEL BUTTON -->
+                    <button class="guide-trigger-btn" id="guidePanelBtn" aria-label="Open Guide Panel">
+                        <span class="guide-trigger-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                        </span>
+                        <span class="guide-trigger-label" data-i18n="guide.btnLabel">Newbie Guide</span>
+                    </button>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Sidebar Drawer (Off-Canvas Menu) -->
-    <div class="sidebar-drawer" id="sidebarDrawer">
-        <div class="drawer-header">
-            <h3 data-i18n="menu.title">Guide Catalog</h3>
-            <button class="close-drawer-btn" id="closeDrawerBtn">&times;</button>
-        </div>
-        <div class="drawer-content">
-            <h4 data-i18n="menu.progression">Game Progression</h4>
-            <ul>
-                <li><button class="drawer-link-btn" data-guide="early_game" data-i18n="menu.early">🌱 Early Game (Beginner)</button></li>
-                <li><button class="drawer-link-btn" data-guide="mid_game" data-i18n="menu.mid">⚔️ Mid Game (Transition)</button></li>
-                <li><button class="drawer-link-btn" data-guide="end_game" data-i18n="menu.end">☠️ End Game (Outlands)</button></li>
-            </ul>
-            <h4 data-i18n="menu.professions">Profession Mastery</h4>
-            <ul>
-                <li><button class="drawer-link-btn" data-guide="miner" data-i18n="menu.miner">⛏️ Miner (Ore)</button></li>
-                <li><button class="drawer-link-btn" data-guide="lumberjack" data-i18n="menu.lumberjack">🪓 Lumberjack (Wood)</button></li>
-                <li><button class="drawer-link-btn" data-guide="skinner" data-i18n="menu.skinner">🔪 Skinner (Hide)</button></li>
-                <li><button class="drawer-link-btn" data-guide="harvester" data-i18n="menu.harvester">🌿 Harvester (Fiber)</button></li>
-                <li><button class="drawer-link-btn" data-guide="fisherman" data-i18n="menu.fisherman">🎣 Fisherman (Fish)</button></li>
-            </ul>
-            <h4 data-i18n="menu.equipment">Gear Pathway</h4>
-            <ul>
-                <li><button class="drawer-link-btn" data-guide="equipment_progression" data-i18n="menu.equip_prog">🛡️ Tool & Armor Progression</button></li>
-            </ul>
+    <!-- ===== GUIDE PANEL OVERLAY ===== -->
+    <div class="guide-overlay" id="guideOverlay">
+        <div class="guide-panel" id="guidePanel">
+
+            <!-- Panel Header -->
+            <div class="guide-panel-header">
+                <div class="guide-panel-title-wrap">
+                    <div class="guide-panel-icon">📖</div>
+                    <div>
+                        <h2 class="guide-panel-title" data-i18n="guide.panelTitle">Albion Player Guide</h2>
+                        <p class="guide-panel-subtitle" data-i18n="guide.panelSubtitle">Asia Server — Your complete journey from beginner to legend</p>
+                    </div>
+                </div>
+                <button class="guide-close-btn" id="guideCloseBtn" aria-label="Close">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Tab Navigation -->
+            <div class="guide-tabs">
+                <button class="guide-tab active" data-tab="beginner">
+                    <span class="tab-icon">🌱</span>
+                    <span data-i18n="guide.tab.beginner">Beginner</span>
+                </button>
+                <button class="guide-tab" data-tab="midgame">
+                    <span class="tab-icon">⚔️</span>
+                    <span data-i18n="guide.tab.midgame">Mid Game</span>
+                </button>
+                <button class="guide-tab" data-tab="endgame">
+                    <span class="tab-icon">💀</span>
+                    <span data-i18n="guide.tab.endgame">End Game</span>
+                </button>
+                <button class="guide-tab" data-tab="professions">
+                    <span class="tab-icon">🎯</span>
+                    <span data-i18n="guide.tab.professions">Professions</span>
+                </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="guide-content" id="guideContent">
+                <!-- Rendered by JS -->
+            </div>
+
         </div>
     </div>
-    <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
-    <!-- HOME VIEW SECTION (Toggled visibility) -->
-    <div id="homeViewContainer" class="home-view-wrapper">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-background"></div>
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <div class="hero-badge" data-i18n="hero.badge">2026 FARMING GUIDE</div>
-                <h1 class="hero-title" data-i18n="hero.title">Albion Online Farming Guide</h1>
-                <p class="hero-description" data-i18n="hero.description">Master the art of resource gathering...</p>
-                <button class="btn btn-primary" id="startFarmingBtn" data-i18n="hero.cta">Start Farming</button>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-i18n="hero.badge">2026 FARMING GUIDE</div>
+            <h1 class="hero-title" data-i18n="hero.title">Albion Online Farming Guide</h1>
+            <p class="hero-description" data-i18n="hero.description">Master the art of resource gathering across all tiers. From beginner zones to the most dangerous T8 Outlands, discover the best farming spots and strategies.</p>
+            <div class="hero-cta-group">
+                <button class="btn btn-primary" data-i18n="hero.cta">Start Farming</button>
+                <button class="btn btn-secondary" id="heroGuideBtn" data-i18n="hero.guideBtn">📖 Open Guide</button>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Prime Time Tracker -->
-        <section class="prime-time-section">
-            <div class="container">
-                <div class="prime-time-widget">
-                    <div class="prime-time-header">
-                        <h3 data-i18n="tracker.title">🕐 Server Status</h3>
-                    </div>
-                    <div class="prime-time-content">
-                        <div class="time-display">
-                            <div class="time-row">
-                                <div class="time-item">
-                                    <div class="time-label" data-i18n="tracker.localTime">Your Time</div>
-                                    <div class="current-time" id="localTime">--:-- --</div>
-                                </div>
-                                <div class="time-divider">|</div>
-                                <div class="time-item">
-                                    <div class="time-label" data-i18n="tracker.serverTime">Server Time (UTC)</div>
-                                    <div class="current-time" id="utcTime">--:-- UTC</div>
-                                </div>
+    <!-- ===== PRIME TIME TRACKER ===== -->
+    <section class="prime-time-section">
+        <div class="container">
+            <div class="prime-time-widget">
+                <div class="prime-time-header">
+                    <h3>🕐 Asia Server Status</h3>
+                </div>
+                <div class="prime-time-content">
+                    <div class="time-display">
+                        <div class="time-row">
+                            <div class="time-item">
+                                <div class="time-label" data-i18n="tracker.localTime">Your Time</div>
+                                <div class="current-time" id="localTime">--:-- --</div>
                             </div>
-                            <div class="danger-level" id="dangerLevel">Safe</div>
+                            <div class="time-divider">|</div>
+                            <div class="time-item">
+                                <div class="time-label" data-i18n="tracker.serverTime">Server Time (UTC)</div>
+                                <div class="current-time" id="utcTime">--:-- UTC</div>
+                            </div>
                         </div>
-                        <div class="time-info">
-                            <p><strong data-i18n="tracker.peakTime">Peak Time:</strong> <span data-i18n="tracker.peakTimeInfo">14:00 UTC</span></p>
-                            <p><strong data-i18n="tracker.status">Status:</strong> <span id="statusInfo" data-i18n="tracker.calculating">Calculating...</span></p>
-                        </div>
+                        <div class="danger-level" id="dangerLevel">Safe</div>
+                    </div>
+                    <div class="time-info">
+                        <p><strong>Peak Time:</strong> <span id="peakTimeInfo">14:00 UTC</span></p>
+                        <p><strong>Status:</strong> <span id="statusInfo">Calculating...</span></p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Main Content Grid -->
-        <section class="main-content">
-            <div class="container">
-                <div class="section-block">
-                    <div class="section-header">
-                        <h2>⚔️ <span data-i18n="builds.title">Recommended Gathering Builds</span></h2>
-                        <p data-i18n="builds.description">Optimize your equipment.</p>
-                    </div>
-                    <div class="builds-grid" id="buildsGrid"></div>
-                </div>
-
-                <div class="section-block">
-                    <div class="section-header">
-                        <h2 data-i18n="biomes.title">Biome Distribution</h2>
-                        <p data-i18n="biomes.description">Each city specializes in different resources.</p>
-                    </div>
-                    <div class="biomes-grid" id="biomesGrid"></div>
-                </div>
-
-                <div class="section-block">
-                    <div class="section-header">
-                        <h2 data-i18n="tiers.title">Tier Progression Guide</h2>
-                        <p data-i18n="tiers.description">Learn the best strategies for each tier level.</p>
-                    </div>
-                    <div class="tiers-container" id="tiersContainer"></div>
-                </div>
-
-                <div class="section-block">
-                    <div class="section-header">
-                        <h2 data-i18n="t8Maps.title">T8 Farming Locations</h2>
-                        <p data-i18n="t8Maps.description">Specific map names for each resource type.</p>
-                    </div>
-                    <div class="t8-maps-grid" id="t8MapsGrid"></div>
-                </div>
-
-                <div class="section-block">
-                    <div class="section-header">
-                        <h2>📅 <span data-i18n="events.title">Asia Server Events & Schedule</span></h2>
-                        <p data-i18n="events.description">Important events and timings.</p>
-                    </div>
-                    <div class="events-grid" id="eventsGrid"></div>
-                </div>
-
-                <div class="pro-tips-grid">
-                    <div class="card pro-tip-card">
-                        <div class="card-icon">⚡</div>
-                        <h3 class="card-title" data-i18n="proTips.efficiency.title">Efficiency Tips</h3>
-                        <div class="card-content" id="efficiencyTips"></div>
-                        <div class="card-note">💡 <em data-i18n="proTips.efficiency.radiantTip">Tip: Use the new Loot All button</em></div>
-                    </div>
-                    <div class="card pro-tip-card">
-                        <div class="card-icon">🛡️</div>
-                        <h3 class="card-title" data-i18n="proTips.safety.title">Safety Strategies</h3>
-                        <div class="card-content" id="safetyTips"></div>
-                    </div>
-                    <div class="card pro-tip-card">
-                        <div class="card-icon">🧭</div>
-                        <h3 class="card-title" data-i18n="proTips.profitability.title">Resource Profitability</h3>
-                        <div class="card-content" id="profitabilityTips"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div> <!-- End Home View -->
-
-    <!-- FULL VIEW GUIDE CONTAINER (Hidden by default) -->
-    <div id="fullGuideViewContainer" class="full-view-container hidden">
-        <div class="container guide-container">
-            <button class="btn btn-outline back-btn" id="backToHomeBtn">
-                <span data-i18n="menu.back_to_home">⬅ Back to Home</span>
-            </button>
-            <div class="guide-view-content" id="dynamicGuideContent">
-                <!-- Content injected via JS -->
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Footer -->
+    <!-- ===== MAIN CONTENT ===== -->
+    <section class="main-content">
+        <div class="container">
+
+            <!-- Gathering Builds -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2>⚔️ <span data-i18n="builds.title">Recommended Gathering Builds</span></h2>
+                    <p data-i18n="builds.description">Optimize your equipment for maximum efficiency and safety while gathering T8 resources.</p>
+                </div>
+                <div class="builds-grid" id="buildsGrid"></div>
+            </div>
+
+            <!-- Biomes -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2 data-i18n="biomes.title">Biome Distribution</h2>
+                    <p data-i18n="biomes.description">Each city specializes in different resources. Choose your farming location based on what you need.</p>
+                </div>
+                <div class="biomes-grid" id="biomesGrid"></div>
+            </div>
+
+            <!-- Tier Guide -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2 data-i18n="tiers.title">Tier Progression Guide</h2>
+                    <p data-i18n="tiers.description">Learn the best strategies for each tier level, from safe beginner zones to dangerous T8 Outlands.</p>
+                </div>
+                <div class="tiers-container" id="tiersContainer"></div>
+            </div>
+
+            <!-- T8 Maps -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2 data-i18n="t8Maps.title">T8 Farming Locations</h2>
+                    <p data-i18n="t8Maps.description">Specific map names for each resource type in the Outlands (Black Zone). These are the most valuable farming spots.</p>
+                </div>
+                <div class="t8-maps-grid" id="t8MapsGrid"></div>
+            </div>
+
+            <!-- Events -->
+            <div class="section-block">
+                <div class="section-header">
+                    <h2>📅 <span data-i18n="events.title">Asia Server Events & Schedule</span></h2>
+                    <p data-i18n="events.description">Important events and timings for Asia server farming activities.</p>
+                </div>
+                <div class="events-grid" id="eventsGrid"></div>
+            </div>
+
+            <!-- Pro Tips -->
+            <div class="pro-tips-grid">
+                <div class="card pro-tip-card">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title" data-i18n="proTips.efficiency.title">Efficiency Tips</h3>
+                    <div class="card-content" id="efficiencyTips"></div>
+                    <div class="card-note">💡 <em data-i18n="proTips.efficiency.radiantTip">Tip: Use the new Loot All button from Radiant Wilds for faster PvE farming!</em></div>
+                </div>
+                <div class="card pro-tip-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3 class="card-title" data-i18n="proTips.safety.title">Safety Strategies</h3>
+                    <div class="card-content" id="safetyTips"></div>
+                </div>
+                <div class="card pro-tip-card">
+                    <div class="card-icon">🧭</div>
+                    <h3 class="card-title" data-i18n="proTips.profitability.title">Resource Profitability</h3>
+                    <div class="card-content" id="profitabilityTips"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
     <footer class="footer">
         <div class="container">
-            <p data-i18n="footer.text">Albion Online Farming Guide 2026</p>
+            <p data-i18n="footer.text">Albion Online Farming Guide 2026 • Last Updated: May 2026</p>
             <p class="footer-author" data-i18n="footer.author">Author: ABID</p>
         </div>
     </footer>
 
-    <!-- Translation Scripts -->
+    <script src="locales/en.json" type="application/json" id="en-locale"></script>
+    <script src="locales/id.json" type="application/json" id="id-locale"></script>
     <script src="script.js"></script>
 </body>
 </html>
