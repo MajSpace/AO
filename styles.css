@@ -928,6 +928,138 @@ p {
 }
 
 /* ============================================
+   TABS & PROGRESSION/PROFESSION SECTIONS
+   ============================================ */
+
+.progression-tabs,
+.profession-tabs {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgba(212, 175, 55, 0.2);
+    padding-bottom: var(--spacing-md);
+}
+
+.tab-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: transparent;
+    border: 2px solid rgba(212, 175, 55, 0.3);
+    color: rgba(232, 232, 240, 0.7);
+    cursor: pointer;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.tab-button.active {
+    background-color: var(--accent);
+    color: var(--dark-bg);
+    border-color: var(--accent);
+}
+
+.progression-content,
+.profession-content {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.progression-card,
+.profession-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    backdrop-filter: blur(10px);
+}
+
+.progression-card h3,
+.profession-card h3 {
+    color: var(--accent);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.3rem;
+}
+
+.progression-card p,
+.profession-card p {
+    color: rgba(232, 232, 240, 0.8);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+}
+
+.progression-card ul,
+.profession-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.progression-card li,
+.profession-card li {
+    color: rgba(232, 232, 240, 0.8);
+    padding-left: var(--spacing-md);
+    position: relative;
+    margin-bottom: var(--spacing-sm);
+}
+
+.progression-card li::before,
+.profession-card li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+}
+
+.profession-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.stat-box {
+    background: rgba(212, 175, 55, 0.1);
+    border-left: 3px solid var(--accent);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: rgba(232, 232, 240, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-value {
+    font-size: 1.3rem;
+    color: var(--accent);
+    font-weight: 700;
+    margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+    .progression-tabs,
+    .profession-tabs {
+        gap: var(--spacing-sm);
+    }
+    
+    .tab-button {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 0.8rem;
+    }
+    
+    .profession-stats {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ============================================
    EVENTS GRID
    ============================================ */
 .events-grid {

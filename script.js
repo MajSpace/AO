@@ -482,6 +482,137 @@ function updatePrimeTimeTracker() {
 setInterval(updatePrimeTimeTracker, 60000);
 
 // ============================================
+// PROGRESSION PATHS RENDERING
+// ============================================
+
+function renderProgressionPaths() {
+    const container = document.getElementById('progressionContent');
+    const tabs = document.querySelectorAll('.progression-tabs .tab-button');
+    
+    const progressionData = {
+        beginner: {
+            title: t('progression.beginner'),
+            focus: t('progression.beginnerFocus'),
+            activity: t('progression.beginnerActivity'),
+            goal: t('progression.beginnerGoal'),
+            tips: t('progression.beginnerTips') || []
+        },
+        midgame: {
+            title: t('progression.midgame'),
+            focus: t('progression.midgameFocus'),
+            activity: t('progression.midgameActivity'),
+            goal: t('progression.midgameGoal'),
+            tips: t('progression.midgameTips') || []
+        },
+        endgame: {
+            title: t('progression.endgame'),
+            focus: t('progression.endgameFocus'),
+            activity: t('progression.endgameActivity'),
+            goal: t('progression.endgameGoal'),
+            tips: t('progression.endgameTips') || []
+        }
+    };
+    
+    function showProgression(tab) {
+        const data = progressionData[tab];
+        const tipsHTML = Array.isArray(data.tips) ? data.tips.map(tip => `<li>${tip}</li>`).join('') : '';
+        
+        container.innerHTML = `
+            <div class="progression-card">
+                <h3>${data.title}</h3>
+                <p><strong>${t('progression.focus')}:</strong> ${data.focus}</p>
+                <p><strong>${t('progression.activity')}:</strong> ${data.activity}</p>
+                <p><strong>${t('progression.goal')}:</strong> ${data.goal}</p>
+                ${tipsHTML ? `<p><strong>${t('progression.tips')}:</strong></p><ul>${tipsHTML}</ul>` : ''}
+            </div>
+        `;
+    }
+    
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            showProgression(tab.getAttribute('data-tab'));
+        });
+    });
+    
+    showProgression('beginner');
+}
+
+// ============================================
+// PROFESSION GUIDES RENDERING
+// ============================================
+
+function renderProfessionGuides() {
+    const container = document.getElementById('professionContent');
+    const tabs = document.querySelectorAll('.profession-tabs .tab-button');
+    
+    const professionData = {
+        woodcutter: {
+            title: t('professions.woodcutterTitle'),
+            description: t('professions.woodcutterDesc'),
+            profit: t('professions.woodcutterProfit'),
+            difficulty: t('professions.woodcutterDifficulty'),
+            tips: t('professions.woodcutterTips') || []
+        },
+        miner: {
+            title: t('professions.minerTitle'),
+            description: t('professions.minerDesc'),
+            profit: t('professions.minerProfit'),
+            difficulty: t('professions.minerDifficulty'),
+            tips: t('professions.minerTips') || []
+        },
+        skinner: {
+            title: t('professions.skinnerTitle'),
+            description: t('professions.skinnerDesc'),
+            profit: t('professions.skinnerProfit'),
+            difficulty: t('professions.skinnerDifficulty'),
+            tips: t('professions.skinnerTips') || []
+        },
+        fisher: {
+            title: t('professions.fisherTitle'),
+            description: t('professions.fisherDesc'),
+            profit: t('professions.fisherProfit'),
+            difficulty: t('professions.fisherDifficulty'),
+            tips: t('professions.fisherTips') || []
+        }
+    };
+    
+    function showProfession(profession) {
+        const data = professionData[profession];
+        const tipsHTML = Array.isArray(data.tips) ? data.tips.map(tip => `<li>${tip}</li>`).join('') : '';
+        
+        container.innerHTML = `
+            <div class="profession-card">
+                <h3>${data.title}</h3>
+                <p>${data.description}</p>
+                <div class="profession-stats">
+                    <div class="stat-box">
+                        <div class="stat-label">${t('professions.profitLabel')}</div>
+                        <div class="stat-value">${data.profit}</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">${t('professions.difficultyLabel')}</div>
+                        <div class="stat-value">${data.difficulty}</div>
+                    </div>
+                </div>
+                ${tipsHTML ? `<p style="margin-top: var(--spacing-lg);"><strong>${t('professions.tips')}:</strong></p><ul>${tipsHTML}</ul>` : ''}
+            </div>
+        `;
+    }
+    
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            showProfession(tab.getAttribute('data-tab'));
+        });
+    });
+    
+    showProfession('woodcutter');
+}
+
+// ============================================
 // PRO TIPS RENDERING
 // ============================================
 
@@ -535,9 +666,15 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
         
-        // Render new sections
+        // Render all sections
+        renderBiomeCards();
+        renderTierGuide();
+        renderProgressionPaths();
+        renderProfessionGuides();
+        renderT8Maps();
         renderGatheringBuilds();
         renderEventSchedule();
+        renderProTips();
         updatePrimeTimeTracker();
     });
 });
