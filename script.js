@@ -489,6 +489,8 @@ function openProfessionDetail(prof) {
         </div>
         <div class="prof-tier-list">${tiersHTML}</div>`;
 
+    // Tutup guide overlay dulu, kemudian buka profession detail page
+    document.getElementById('guideOverlay').classList.remove('open');
     page.classList.add('open');
     document.body.style.overflow = 'hidden';
 }
