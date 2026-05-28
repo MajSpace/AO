@@ -30,7 +30,7 @@
 
     /* Typography */
     --font-serif: 'Cinzel', serif;
-    --font-sans: 'Crimson Pro', serif;
+    --font-sans: 'Roboto', sans-serif;
 
     /* Transitions */
     --transition-fast: 150ms ease-out;
